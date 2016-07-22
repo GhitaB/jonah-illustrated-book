@@ -79,6 +79,18 @@
               </div>
             </div>
 
+            <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+              {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
+            </h2>
+
+            <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+              {{gallery.you_can_help[gallery.language]}}
+              <a href="https://www.facebook.com/ghita.bizau" target="_blank">
+                {{gallery.ask_me_how[gallery.language]}}
+              </a>
+            </h2>
+            <p class="text-center">ghita_bizau@yahoo.com</p>
+
             <h3 class="text-center">{{gallery.credits.title[gallery.language]}}</h3>
             <p class="text-center">{{gallery.credits.text[gallery.language]}}</p>
           </div>
