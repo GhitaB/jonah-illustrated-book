@@ -9,15 +9,18 @@
 body {
   background: #FFFBFC;
   color: #010400;
+  font-family: serif;
 }
 
 h1 {
-  font-size: 10vw;
+  font-size: 12vw;
+  font-family: sans-serif;
+  color: #62BBC1;
 }
 
 h2 {
   font-size: 3vw;
-  color: #30332E;
+  color: #EC058E;
 }
 
 div#gallery div.gallery-item img {
@@ -31,4 +34,5 @@ div#gallery div.gallery-item div.caption {
   border-radius: 20px;
   background: #30332E;
   color: #FFFBFC;
+  font-size: 2vw;
 }
