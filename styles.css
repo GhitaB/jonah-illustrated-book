@@ -9,30 +9,47 @@
 body {
   background: #FFFBFC;
   color: #010400;
-  font-family: serif;
+  font-family: sans-serif;
 }
 
-h1 {
+h1.title {
   font-size: 12vw;
-  font-family: sans-serif;
+  font-family: serif;
   color: #62BBC1;
 }
 
-h2 {
+h2.title {
   font-size: 3vw;
   color: #EC058E;
 }
 
+h3 {
+  font-size: 30px;
+  color: #30332E;
+  text-align: left;
+}
+
+div#gallery div.gallery-item {
+  margin-top: 50px;
+  border-top: 5px dotted #62BBC1;
+}
+
 div#gallery div.gallery-item img {
   border-radius: 20px;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 
 div#gallery div.gallery-item div.caption {
   margin-top: 10px;
+  margin-bottom: 100px;
   padding: 20px;
   border-radius: 20px;
   background: #30332E;
   color: #FFFBFC;
   font-size: 2vw;
+  text-align: left;
+}
+
+div#gallery div.gallery-item div.progress {
+  margin-top: 30px;
 }
