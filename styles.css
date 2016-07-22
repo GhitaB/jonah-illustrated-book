@@ -36,7 +36,8 @@ div#gallery div.gallery-item {
 
 div#gallery div.gallery-item img {
   border-radius: 20px;
-  margin-top: 10px;
+  max-height: 80vh;
+  margin: 10px auto 0 auto;
 }
 
 div#gallery div.gallery-item div.caption {
@@ -46,10 +47,23 @@ div#gallery div.gallery-item div.caption {
   border-radius: 20px;
   background: #30332E;
   color: #FFFBFC;
-  font-size: 2vw;
+  font-size: 16px;
   text-align: left;
 }
 
 div#gallery div.gallery-item div.progress {
   margin-top: 30px;
+}
+
+div#gallery ul.languages img.flag {
+  width: 50px;
+  height: 30px;
+}
+
+div#gallery ul.languages {
+  margin-top: 20px;
+}
+div#gallery ul.languages li {
+  display: inline-block;
+  margin-right: 10px;
 }
