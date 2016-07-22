@@ -3,6 +3,15 @@ angular.module('galleryApp', [])
     var gallery = this;
     gallery.language = "en";
 
+    gallery.get_global_progress = function() {
+      var index;
+      var total = 0;
+      for (index = 0; index < gallery.items.length; ++index) {
+        total = total + gallery.items[index].done;
+      }
+      return (total/gallery.items.length).toFixed(2);
+    }
+
     gallery.title = {
       ro: "Iona", 
       en: "Jonah"
@@ -26,6 +35,16 @@ angular.module('galleryApp', [])
     gallery.complete = {
       ro: "Realizat", 
       en: "Complete"
+    };
+
+    gallery.you_can_help = {
+      ro: "Poți să ajuți.",
+      en: "You can help."
+    };
+
+    gallery.ask_me_how = {
+      ro: "Întreabă-mă cum.",
+      en: "Ask me how."
     };
 
     gallery.credits = {
