@@ -12,34 +12,34 @@ angular.module('galleryApp', [])
         total = total + gallery.items[index].done;
       }
       return (total/gallery.items.length).toFixed(2);
-    }
+    };
 
     gallery.estimate_remaining = function() {
       return ((gallery.worked_hours * 100) / gallery.get_global_progress()).toFixed(2);
-    }
+    };
 
     gallery.title = {
-      ro: "Iona", 
+      ro: "Iona",
       en: "Jonah"
     };
 
     gallery.description = {
-      ro: "carte ilustrată pentru copii", 
+      ro: "carte ilustrată pentru copii",
       en: "illustrated book for kids"
     };
 
     gallery.intro = {
-      ro: "cu desene de Ghiță Bizău", 
+      ro: "cu desene de Ghiță Bizău",
       en: "digital paintings by Ghiță Bizău"
     };
 
     gallery.episode = {
-      ro: "Episodul", 
+      ro: "Episodul",
       en: "Episode"
     };
 
     gallery.complete = {
-      ro: "Realizat", 
+      ro: "Realizat",
       en: "Complete"
     };
 
@@ -594,4 +594,10 @@ angular.module('galleryApp', [])
         }
       }
     ];
+
+    gallery.estimate_remaining_text = {
+      ro: gallery.worked_hours +" ore lucrate. Mai trebuie vreo " + gallery.estimate_remaining() + ".",
+      en: "Worked " + gallery.worked_hours + " hours. Remaining " + gallery.estimate_remaining() + "hours."
+    };
+
   });

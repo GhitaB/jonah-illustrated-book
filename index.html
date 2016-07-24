@@ -83,7 +83,7 @@
             <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
               {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
             </h2>
-            <p>Worked {{gallery.worked_hours}} hours. Remaining {{gallery.estimate_remaining()}} hours.</p>
+            <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
 
             <!-- You can help -->
             <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
