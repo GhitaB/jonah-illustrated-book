@@ -597,7 +597,7 @@ angular.module('galleryApp', [])
 
     gallery.estimate_remaining_text = {
       ro: gallery.worked_hours +" ore lucrate. Mai trebuie vreo " + gallery.estimate_remaining() + ".",
-      en: "Worked " + gallery.worked_hours + " hours. Remaining " + gallery.estimate_remaining() + "hours."
+      en: "Worked " + gallery.worked_hours + " hours. Remaining " + gallery.estimate_remaining() + " hours."
     };
 
   });
