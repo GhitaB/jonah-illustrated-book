@@ -3,7 +3,7 @@ angular.module('galleryApp', [])
     var gallery = this;
     gallery.language = "en";
 
-    gallery.worked_hours = 46;  // EDIT HERE
+    gallery.worked_hours = 47;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -101,7 +101,7 @@ angular.module('galleryApp', [])
       {
         id: 1,
         img: '01.png',
-        done: 90,
+        done: 100,
         text: {
           ro: "1:1. Cuvântul Domnului a vorbit lui Iona, fiul lui Amitai, astfel:",
           en: "1:1. Now the word of the LORD came unto Jonah the son of Amittai, saying,"
