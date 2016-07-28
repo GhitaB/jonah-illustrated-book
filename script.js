@@ -3,7 +3,7 @@ angular.module('galleryApp', [])
     var gallery = this;
     gallery.language = "en";
 
-    gallery.worked_hours = 47;  // EDIT HERE
+    gallery.worked_hours = 50;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
