@@ -34,8 +34,8 @@ angular.module('galleryApp', [])
     };
 
     gallery.episode = {
-      ro: "Episodul",
-      en: "Episode"
+      ro: "Imaginea",
+      en: "Image"
     };
 
     gallery.complete = {
