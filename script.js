@@ -2,6 +2,7 @@ angular.module('galleryApp', [])
   .controller('galleryController', function() {
     var gallery = this;
     gallery.language = "en";
+    gallery.work_start_date = new Date(2016,05,20);
 
     gallery.worked_hours = 54;  // EDIT HERE
 
@@ -16,6 +17,24 @@ angular.module('galleryApp', [])
 
     gallery.estimate_remaining = function() {
       return ((gallery.worked_hours * 100) / gallery.get_global_progress()).toFixed(2);
+    };
+
+    gallery.estimate_finish_date = function() {
+      var start_date = gallery.work_start_date;
+      var today_date = new Date();
+      var one_day = 24 * 60 * 60 * 1000;  // hours * minutes * seconds * milliseconds
+
+      var days_number = Math.round(Math.abs((today_date - start_date) / (one_day)));
+
+      //  days number ......................... worked hours
+      //  estimated remaining days number ..... remaining hours
+      //
+      //  estimated remaining days number = (days number * remaining hours) / worked hours
+      //
+      //  estimated finish date = today + estimated remaining days number
+      var estimated_remaining_days_number = ((days_number * gallery.estimate_remaining()) / gallery.worked_hours).toFixed(2);
+      var estimated_finish_date = new Date(today_date.getTime() + (parseInt(estimated_remaining_days_number) * one_day));
+      return estimated_finish_date;
     };
 
     gallery.title = {
