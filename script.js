@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "en";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 54;  // EDIT HERE
+    gallery.worked_hours = 55;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
