@@ -37,6 +37,16 @@ angular.module('galleryApp', [])
       return estimated_finish_date;
     };
 
+    gallery.estimate_finish_date_text = {
+      ro: "Data finalizării proiectului (bazată pe progresul actual):",
+      en: "Estimated finish date (based on current progress):"
+    };
+
+    gallery.hope_finish_date_text = {
+      ro: "Dar personal doresc să fie gata la 28.02.2017.",
+      en: "But I want to have it finished in 28.02.2017."
+    };
+
     gallery.title = {
       ro: "Iona",
       en: "Jonah"

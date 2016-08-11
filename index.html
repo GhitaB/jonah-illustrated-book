@@ -84,7 +84,8 @@
               {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
             </h2>
             <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
-            <p>Estimated finish date (based on current progress): {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}</p>
+            <p>{{gallery.estimate_finish_date_text[gallery.language]}} {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}.</p>
+            <p>{{gallery.hope_finish_date_text[gallery.language]}}</p>
             <!-- You can help -->
             <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
               {{gallery.you_can_help[gallery.language]}}
