@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "en";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 60;  // EDIT HERE
+    gallery.worked_hours = 68;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -165,8 +165,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 5,
-        img: '00.png',
-        done: 0,
+        img: '05.png',
+        done: 10,
         text: {
           ro: "1:3C. A plătit preţul călătoriei şi s-a suit în corabie ca să meargă împreună cu călătorii la Tars, departe de faţa Domnului.",
           en: "1:3C. so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD."
@@ -174,8 +174,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 6,
-        img: '00.png',
-        done: 0,
+        img: '06.png',
+        done: 10,
         text: {
           ro: "1:4. Dar Domnul a făcut să sufle pe mare un vânt năprasnic şi a stârnit o mare furtună. Corabia ameninţa să se sfărâme.",
           en: "1:4. But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken."
@@ -183,8 +183,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 7,
-        img: '00.png',
-        done: 0,
+        img: '07.png',
+        done: 10,
         text: {
           ro: "1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui",
           en: "1:5A. Then the mariners were afraid, and cried every man unto his god, "
@@ -192,8 +192,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 8,
-        img: '00.png',
-        done: 0,
+        img: '08.png',
+        done: 10,
         text: {
           ro: "1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară.",
           en: "1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them."
@@ -201,8 +201,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 9,
-        img: '00.png',
-        done: 0,
+        img: '09.png',
+        done: 10,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
@@ -210,8 +210,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 10,
-        img: '00.png',
-        done: 0,
+        img: '10.png',
+        done: 10,
         text: {
           ro: "1:6. Cârmaciul s-a apropiat de el şi i-a zis: \"Ce dormi? Scoală-te şi cheamă pe Dumnezeul tău! Poate că Dumnezeu va voi să Se gândească la noi şi nu vom pieri!\"",
           en: "1:6. So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not."
@@ -219,8 +219,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 11,
-        img: '00.png',
-        done: 0,
+        img: '11.png',
+        done: 10,
         text: {
           ro: "1:7. Şi au zis unul către altul: \"Veniţi să tragem la sorţi, ca să ştim din pricina cui a venit peste noi nenorocirea aceasta!\" Au tras la sorţi, şi sorţul a căzut pe Iona.",
           en: "1:7. And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah."
@@ -228,8 +228,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 12,
-        img: '00.png',
-        done: 0,
+        img: '12.png',
+        done: 10,
         text: {
           ro: "1:8. Atunci ei i-au zis: \"Spune-ne din pricina cui a venit peste noi nenorocirea aceasta? Ce meserie ai şi de unde vii? Care îţi este ţara şi din ce popor eşti?\"",
           en: "1:8. Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?"
@@ -237,8 +237,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 13,
-        img: '00.png',
-        done: 0,
+        img: '13.png',
+        done: 10,
         text: {
           ro: "1:9. El le-a răspuns: \"Sunt evreu, şi mă tem de Domnul Dumnezeul cerurilor care a făcut marea şi uscatul!\"",
           en: "1:9. And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land."
@@ -246,8 +246,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 14,
-        img: '00.png',
-        done: 0,
+        img: '14.png',
+        done: 10,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
@@ -255,8 +255,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 15,
-        img: '00.png',
-        done: 0,
+        img: '15.png',
+        done: 10,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
@@ -264,8 +264,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 16,
-        img: '00.png',
-        done: 0,
+        img: '16.png',
+        done: 10,
         text: {
           ro: "1:12. El le-a răspuns: \"Luaţi-mă şi aruncaţi-mă în mare, şi marea se va linişti faţă de voi! Căci ştiu că din vina mea vine peste voi această mare furtună!\"",
           en: "1:12. And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you."
@@ -273,8 +273,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 17,
-        img: '00.png',
-        done: 0,
+        img: '17.png',
+        done: 10,
         text: {
           ro: "1:13. Oamenii aceştia vâsleau ca să ajungă la uscat, dar nu puteau, pentru că marea se întărâta tot mai mult împotriva lor.",
           en: "1:13. Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them."
@@ -282,8 +282,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 18,
-        img: '00.png',
-        done: 0,
+        img: '18.png',
+        done: 10,
         text: {
           ro: "1:14. Atunci au strigat către Domnul şi au zis: \"Doamne, nu ne pierde din pricina vieţii omului acestuia şi nu ne împovăra cu sânge nevinovat! Căci Tu, Doamne, faci ce vrei!\"",
           en: "1:14. Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man's life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee."
@@ -291,8 +291,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 19,
-        img: '00.png',
-        done: 0,
+        img: '19.png',
+        done: 10,
         text: {
           ro: "1:15A. Apoi au luat pe Iona şi l-au aruncat în mare",
           en: "1:15A. So they took up Jonah, and cast him forth into the sea:"
@@ -300,8 +300,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 20,
-        img: '00.png',
-        done: 0,
+        img: '20.png',
+        done: 10,
         text: {
           ro: "1:15B. Şi furia mării s-a potolit.",
           en: "1:15B. and the sea ceased from her raging."
@@ -309,8 +309,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 21,
-        img: '00.png',
-        done: 0,
+        img: '21.png',
+        done: 10,
         text: {
           ro: "1:16. Pe oamenii aceia i-a apucat o mare frică de Domnul, şi au adus Domnului o jertfă, şi I-au făcut juruinţe.",
           en: "1:16. Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows."
@@ -318,8 +318,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 22,
-        img: '00.png',
-        done: 0,
+        img: '22.png',
+        done: 10,
         text: {
           ro: "1:17. Domnul a trimis un peşte mare să înghită pe Iona, şi Iona a stat în pântecele peştelui trei zile şi trei nopţi.",
           en: "1.17. Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights."
@@ -327,8 +327,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 23,
-        img: '00.png',
-        done: 0,
+        img: '23.png',
+        done: 10,
         text: {
           ro: "2:1. Iona s-a rugat Domnului Dumnezeului său din pântecele peştelui",
           en: "2:1. Then Jonah prayed unto the LORD his God out of the fish's belly,"
@@ -336,8 +336,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 24,
-        img: '00.png',
-        done: 0,
+        img: '24.png',
+        done: 10,
         text: {
           ro: "2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul.",
           en: "2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice."
@@ -345,8 +345,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 25,
-        img: '00.png',
-        done: 0,
+        img: '25.png',
+        done: 10,
         text: {
           ro: "2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine.",
           en: "2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me."
