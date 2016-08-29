@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "en";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 69;  // EDIT HERE
+    gallery.worked_hours = 71;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -390,8 +390,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 30,
-        img: '00.png',
-        done: 0,
+        img: '30.png',
+        done: 10,
         text: {
           ro: "2:8. Cei ce se lipesc de idoli deşerţi îndepărtează îndurarea de la ei.",
           en: "2:8. They that observe lying vanities forsake their own mercy."
@@ -453,8 +453,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 37,
-        img: '00.png',
-        done: 0,
+        img: '37.png',
+        done: 10,
         text: {
           ro: "3:4. Iona a început să pătrundă în oraş, cale de o zi, strigând şi zicând: \"Încă patruzeci de zile, şi Ninive va fi nimicită!\"",
           en: "3:4. And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown."
@@ -480,8 +480,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 40,
-        img: '00.png',
-        done: 0,
+        img: '40.png',
+        done: 10,
         text: {
           ro: "3:7. Şi a trimis să se dea de ştire în Ninive, din porunca împăratului şi mai marilor lui, următoarele: \"Oamenii şi vitele, boii şi oile să nu guste nimic, să nu pască şi nici să nu bea apă deloc!",
           en: "3:7. And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:"
