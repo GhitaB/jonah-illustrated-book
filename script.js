@@ -319,7 +319,7 @@ angular.module('galleryApp', [])
       {
         id: 22,
         img: '22.png',
-        done: 10,
+        done: 50,
         text: {
           ro: "1:17. Domnul a trimis un peşte mare să înghită pe Iona, şi Iona a stat în pântecele peştelui trei zile şi trei nopţi.",
           en: "1.17. Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights."
