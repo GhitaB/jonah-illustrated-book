@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "en";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 72.5;  // EDIT HERE
+    gallery.worked_hours = 74;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -399,8 +399,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 31,
-        img: '00.png',
-        done: 0,
+        img: '31.png',
+        done: 10,
         text: {
           ro: "2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
           en: "2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
@@ -408,8 +408,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 32,
-        img: '00.png',
-        done: 0,
+        img: '32.png',
+        done: 10,
         text: {
           ro: "2:10. Domnul a vorbit peştelui, şi peştele a vărsat pe Iona pe pământ.",
           en: "2:10. And the LORD spake unto the fish, and it vomited out Jonah upon the dry land."
@@ -444,8 +444,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 36,
-        img: '00.png',
-        done: 0,
+        img: '36.png',
+        done: 10,
         text: {
           ro: "3:3B. Şi Ninive era o cetate foarte mare, cât o călătorie de trei zile.",
           en: "3:3B. Now Nineveh was an exceeding great city of three days' journey."
