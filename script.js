@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 78;  // EDIT HERE
+    gallery.worked_hours = 79;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -400,7 +400,7 @@ angular.module('galleryApp', [])
       {
         id: 31,
         img: '31.png',
-        done: 10,
+        done: 30,
         text: {
           ro: "2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
           en: "2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
