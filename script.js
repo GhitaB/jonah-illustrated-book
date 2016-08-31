@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 76;  // EDIT HERE
+    gallery.worked_hours = 78;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -381,8 +381,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 29,
-        img: '00.png',
-        done: 0,
+        img: '29.png',
+        done: 10,
         text: {
           ro: "2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt.",
           en: "2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple."
@@ -481,7 +481,7 @@ angular.module('galleryApp', [])
       {
         id: 40,
         img: '40.png',
-        done: 10,
+        done: 30,
         text: {
           ro: "3:7. Şi a trimis să se dea de ştire în Ninive, din porunca împăratului şi mai marilor lui, următoarele: \"Oamenii şi vitele, boii şi oile să nu guste nimic, să nu pască şi nici să nu bea apă deloc!",
           en: "3:7. And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:"
@@ -552,8 +552,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 48,
-        img: '00.png',
-        done: 0,
+        img: '48.png',
+        done: 10,
         text: {
           ro: "4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
           en: "4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
