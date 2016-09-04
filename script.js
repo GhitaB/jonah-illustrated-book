@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 82;  // EDIT HERE
+    gallery.worked_hours = 83;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -354,8 +354,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 26,
-        img: '00.png',
-        done: 0,
+        img: '26.png',
+        done: 10,
         text: {
           ro: "2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\"",
           en: "2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple."
@@ -363,8 +363,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 27,
-        img: '00.png',
-        done: 0,
+        img: '27.png',
+        done: 10,
         text: {
           ro: "2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu.",
           en: "2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head."
@@ -372,8 +372,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 28,
-        img: '00.png',
-        done: 0,
+        img: '28.png',
+        done: 10,
         text: {
           ro: "2:6. M-am coborât până la temeliile munţilor, zăvoarele pământului mă încuiau pe vecie; dar Tu m-ai scos viu din groapă, Doamne Dumnezeul meu!",
           en: "2:6. I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God."
