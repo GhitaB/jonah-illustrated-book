@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 85;  // EDIT HERE
+    gallery.worked_hours = 86;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -579,8 +579,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 51,
-        img: '00.png',
-        done: 0,
+        img: '51.png',
+        done: 10,
         text: {
           ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
           en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
@@ -588,8 +588,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 52,
-        img: '00.png',
-        done: 0,
+        img: '52.png',
+        done: 10,
         text: {
           ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
           en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
@@ -597,8 +597,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 53,
-        img: '00.png',
-        done: 0,
+        img: '53.png',
+        done: 10,
         text: {
           ro: "4:9. Dar Dumnezeu a zis lui Iona: \"Bine faci tu de te mânii din pricina curcubetelui?\" El a răspuns: \"Da, bine fac că mă mânii până la moarte!\"",
           en: "4:9. And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death."
@@ -606,8 +606,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 54,
-        img: '00.png',
-        done: 0,
+        img: '54.png',
+        done: 10,
         text: {
           ro: "4:10. Atunci şi Domnul a zis: \"Ţie îţi este milă de curcubetele acesta, care nu te-a costat nicio trudă şi pe care nu tu l-ai făcut să crească, ci într-o noapte s-a născut şi într-o noapte a pierit.",
           en: "4:10. Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:"
