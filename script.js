@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 83;  // EDIT HERE
+    gallery.worked_hours = 85;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -417,8 +417,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 33,
-        img: '00.png',
-        done: 0,
+        img: '33.png',
+        done: 10,
         text: {
           ro: "3:1. Cuvântul Domnului a vorbit a doua oară lui Iona astfel:",
           en: "3:1. And the word of the LORD came unto Jonah the second time, saying,"
@@ -426,8 +426,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 34,
-        img: '00.png',
-        done: 0,
+        img: '34.png',
+        done: 10,
         text: {
           ro: "3:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi vesteşte acolo strigarea pe care ţi-o voi da!\"",
           en: "3:2. Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee."
@@ -435,8 +435,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 35,
-        img: '00.png',
-        done: 0,
+        img: '35.png',
+        done: 10,
         text: {
           ro: "3:3A. Şi Iona s-a sculat şi s-a dus la Ninive, după cuvântul Domnului.",
           en: "3:3A. So Jonah arose, and went unto Nineveh, according to the word of the LORD. "
@@ -570,8 +570,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 50,
-        img: '00.png',
-        done: 0,
+        img: '50.png',
+        done: 15,
         text: {
           ro: "4:7. Dar a doua zi, la răsăritul soarelui, Dumnezeu a adus un vierme care a înţepat curcubetele, şi curcubetele s-a uscat.",
           en: "4:7. But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered."
