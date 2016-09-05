@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 86;  // EDIT HERE
+    gallery.worked_hours = 87;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -462,8 +462,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 38,
-        img: '00.png',
-        done: 0,
+        img: '38.png',
+        done: 10,
         text: {
           ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici.",
           en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them."
@@ -471,8 +471,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 39,
-        img: '00.png',
-        done: 0,
+        img: '39.png',
+        done: 10,
         text: {
           ro: "3:6. Lucrul a ajuns la urechea împăratului din Ninive; el s-a sculat de pe scaunul lui de domnie, şi-a scos mantia de pe el, s-a acoperit cu un sac şi a şezut în cenuşă.",
           en: "3:6. For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes."
