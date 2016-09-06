@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 88;  // EDIT HERE
+    gallery.worked_hours = 89;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -543,8 +543,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 47,
-        img: '00.png',
-        done: 0,
+        img: '47.png',
+        done: 30,
         text: {
           ro: "4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\"",
           en: "4:4. Then said the LORD, Doest thou well to be angry?"
