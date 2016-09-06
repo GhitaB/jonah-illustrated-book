@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 89;  // EDIT HERE
+    gallery.worked_hours = 90;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -489,8 +489,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 41,
-        img: '00.png',
-        done: 0,
+        img: '41.png',
+        done: 10,
         text: {
           ro: "3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile!",
           en: "3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands."
@@ -498,8 +498,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 42,
-        img: '00.png',
-        done: 0,
+        img: '42.png',
+        done: 10,
         text: {
           ro: "3:9. Cine ştie dacă nu Se va întoarce Dumnezeu şi Se va căi, şi dacă nu-Şi va opri mânia Lui aprinsă, ca să nu pierim!\"",
           en: "3:9. Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?"
@@ -507,8 +507,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 43,
-        img: '00.png',
-        done: 0,
+        img: '43.png',
+        done: 10,
         text: {
           ro: "3:10. Dumnezeu a văzut ce făceau ei şi că se întorceau de la calea lor cea rea. Atunci Dumnezeu S-a căit de răul pe care Se hotărâse să li-l facă şi nu l-a făcut.",
           en: "3:10. And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not."
