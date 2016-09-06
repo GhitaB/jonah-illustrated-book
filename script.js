@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 87;  // EDIT HERE
+    gallery.worked_hours = 88;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -561,8 +561,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 49,
-        img: '00.png',
-        done: 0,
+        img: '49.png',
+        done: 30,
         text: {
           ro: "4:6. Domnul Dumnezeu a făcut să crească un curcubete care s-a ridicat peste Iona ca să facă umbră capului lui şi să-l facă să-i treacă mânia. Iona s-a bucurat foarte mult de curcubetele acesta.",
           en: "4:6. And the LORD God prepared a gourd, and made it to come up over Jonah, that it might be a shadow over his head, to deliver him from his grief. So Jonah was exceeding glad of the gourd."
