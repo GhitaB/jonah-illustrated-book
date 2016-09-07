@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 90;  // EDIT HERE
+    gallery.worked_hours = 91;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -516,8 +516,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 44,
-        img: '00.png',
-        done: 0,
+        img: '44.png',
+        done: 40,
         text: {
           ro: "4:1. Lucrul acesta n-a plăcut deloc lui Iona, şi s-a mâniat.",
           en: "4:1. But it displeased Jonah exceedingly, and he was very angry."
@@ -525,8 +525,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 45,
-        img: '00.png',
-        done: 0,
+        img: '45.png',
+        done: 40,
         text: {
           ro: "4:2. S-a rugat Domnului şi a zis: \"Ah! Doamne, nu este aceasta tocmai ce ziceam eu când eram încă în ţara mea? Tocmai lucrul acesta voiam să-l înlătur fugind la Tars. Căci ştiam că eşti un Dumnezeu milos şi plin de îndurare, îndelung răbdător şi bogat în bunătate, şi că Te căieşti de rău!",
           en: "4:2. And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil."
@@ -534,8 +534,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 46,
-        img: '00.png',
-        done: 0,
+        img: '46.png',
+        done: 40,
         text: {
           ro: "4:3. Acum, Doamne, ia-mi viaţa, căci vreau mai bine să mor decât să trăiesc!\"",
           en: "4:3. Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live."
