@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 97.25;  // EDIT HERE
+    gallery.worked_hours = 98;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -220,7 +220,7 @@ angular.module('galleryApp', [])
       {
         id: 11,
         img: '11.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:7. Şi au zis unul către altul: \"Veniţi să tragem la sorţi, ca să ştim din pricina cui a venit peste noi nenorocirea aceasta!\" Au tras la sorţi, şi sorţul a căzut pe Iona.",
           en: "1:7. And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah."
