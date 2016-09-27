@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 98;  // EDIT HERE
+    gallery.worked_hours = 99;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -229,7 +229,7 @@ angular.module('galleryApp', [])
       {
         id: 12,
         img: '12.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:8. Atunci ei i-au zis: \"Spune-ne din pricina cui a venit peste noi nenorocirea aceasta? Ce meserie ai şi de unde vii? Care îţi este ţara şi din ce popor eşti?\"",
           en: "1:8. Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?"
@@ -238,7 +238,7 @@ angular.module('galleryApp', [])
       {
         id: 13,
         img: '13.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:9. El le-a răspuns: \"Sunt evreu, şi mă tem de Domnul Dumnezeul cerurilor care a făcut marea şi uscatul!\"",
           en: "1:9. And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land."
@@ -247,7 +247,7 @@ angular.module('galleryApp', [])
       {
         id: 14,
         img: '14.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
