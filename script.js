@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 99;  // EDIT HERE
+    gallery.worked_hours = 100;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -256,7 +256,7 @@ angular.module('galleryApp', [])
       {
         id: 15,
         img: '15.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
@@ -265,7 +265,7 @@ angular.module('galleryApp', [])
       {
         id: 16,
         img: '16.png',
-        done: 40,
+        done: 80,
         text: {
           ro: "1:12. El le-a răspuns: \"Luaţi-mă şi aruncaţi-mă în mare, şi marea se va linişti faţă de voi! Căci ştiu că din vina mea vine peste voi această mare furtună!\"",
           en: "1:12. And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you."
