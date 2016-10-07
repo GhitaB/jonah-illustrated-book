@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 109.5;  // EDIT HERE
+    gallery.worked_hours = 110;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -148,7 +148,7 @@ angular.module('galleryApp', [])
       {
         id: 3,
         img: '03.png',
-        done: 95,
+        done: 97,
         text: {
           ro: "1:3A. Şi Iona s-a sculat să fugă la Tars, departe de faţa Domnului.",
           en: "1:3A. But Jonah rose up to flee unto Tarshish from the presence of the LORD,"
