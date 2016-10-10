@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 112;  // EDIT HERE
+    gallery.worked_hours = 113;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -382,7 +382,7 @@ angular.module('galleryApp', [])
       {
         id: 29,
         img: '29.png',
-        done: 30,
+        done: 60,
         text: {
           ro: "2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt.",
           en: "2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple."
