@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 114;  // EDIT HERE
+    gallery.worked_hours = 114.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -418,7 +418,7 @@ angular.module('galleryApp', [])
       {
         id: 33,
         img: '33.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:1. Cuvântul Domnului a vorbit a doua oară lui Iona astfel:",
           en: "3:1. And the word of the LORD came unto Jonah the second time, saying,"
