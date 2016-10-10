@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 113;  // EDIT HERE
+    gallery.worked_hours = 114;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -409,7 +409,7 @@ angular.module('galleryApp', [])
       {
         id: 32,
         img: '32.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "2:10. Domnul a vorbit peştelui, şi peştele a vărsat pe Iona pe pământ.",
           en: "2:10. And the LORD spake unto the fish, and it vomited out Jonah upon the dry land."
