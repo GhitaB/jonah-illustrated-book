@@ -130,7 +130,7 @@ angular.module('galleryApp', [])
       {
         id: 1,
         img: '01.png',
-        done: 98,
+        done: 100,
         text: {
           ro: "1:1. Cuvântul Domnului a vorbit lui Iona, fiul lui Amitai, astfel:",
           en: "1:1. Now the word of the LORD came unto Jonah the son of Amittai, saying,"
