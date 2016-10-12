@@ -139,7 +139,7 @@ angular.module('galleryApp', [])
       {
         id: 2,
         img: '02.png',
-        done: 98,
+        done: 100,
         text: {
           ro: "1:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi strigă împotriva ei. Căci răutatea ei s-a suit până la Mine!\"",
           en: "1:2. Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me."
@@ -148,7 +148,7 @@ angular.module('galleryApp', [])
       {
         id: 3,
         img: '03.png',
-        done: 97,
+        done: 100,
         text: {
           ro: "1:3A. Şi Iona s-a sculat să fugă la Tars, departe de faţa Domnului.",
           en: "1:3A. But Jonah rose up to flee unto Tarshish from the presence of the LORD,"
