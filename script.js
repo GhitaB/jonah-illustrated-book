@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 115;  // EDIT HERE
+    gallery.worked_hours = 116;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -139,7 +139,7 @@ angular.module('galleryApp', [])
       {
         id: 2,
         img: '02.png',
-        done: 95,
+        done: 98,
         text: {
           ro: "1:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi strigă împotriva ei. Căci răutatea ei s-a suit până la Mine!\"",
           en: "1:2. Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me."
