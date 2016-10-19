@@ -283,7 +283,7 @@ angular.module('galleryApp', [])
       {
         id: 18,
         img: '18.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "1:14. Atunci au strigat către Domnul şi au zis: \"Doamne, nu ne pierde din pricina vieţii omului acestuia şi nu ne împovăra cu sânge nevinovat! Căci Tu, Doamne, faci ce vrei!\"",
           en: "1:14. Wherefore they cried unto the LORD, and said, We beseech thee, O LORD, we beseech thee, let us not perish for this man's life, and lay not upon us innocent blood: for thou, O LORD, hast done as it pleased thee."
