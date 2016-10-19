@@ -292,7 +292,7 @@ angular.module('galleryApp', [])
       {
         id: 19,
         img: '19.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "1:15A. Apoi au luat pe Iona şi l-au aruncat în mare",
           en: "1:15A. So they took up Jonah, and cast him forth into the sea:"
