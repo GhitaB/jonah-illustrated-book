@@ -16,7 +16,7 @@ angular.module('galleryApp', [])
     };
 
     gallery.estimate_remaining = function() {
-      return ((gallery.worked_hours * 100) / gallery.get_global_progress()).toFixed(2);
+      return ((((gallery.worked_hours * 100) / gallery.get_global_progress()).toFixed(2)) - gallery.worked_hours).toFixed(2);
     };
 
     gallery.estimate_finish_date = function() {
