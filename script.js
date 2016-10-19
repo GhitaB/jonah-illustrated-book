@@ -184,7 +184,7 @@ angular.module('galleryApp', [])
       {
         id: 7,
         img: '07.png',
-        done: 40,
+        done: 50,
         text: {
           ro: "1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui",
           en: "1:5A. Then the mariners were afraid, and cried every man unto his god, "
@@ -193,7 +193,7 @@ angular.module('galleryApp', [])
       {
         id: 8,
         img: '08.png',
-        done: 40,
+        done: 70,
         text: {
           ro: "1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară.",
           en: "1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them."
@@ -202,7 +202,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 40,
+        done: 60,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
@@ -211,7 +211,7 @@ angular.module('galleryApp', [])
       {
         id: 10,
         img: '10.png',
-        done: 40,
+        done: 60,
         text: {
           ro: "1:6. Cârmaciul s-a apropiat de el şi i-a zis: \"Ce dormi? Scoală-te şi cheamă pe Dumnezeul tău! Poate că Dumnezeu va voi să Se gândească la noi şi nu vom pieri!\"",
           en: "1:6. So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not."
@@ -220,7 +220,7 @@ angular.module('galleryApp', [])
       {
         id: 11,
         img: '11.png',
-        done: 40,
+        done: 60,
         text: {
           ro: "1:7. Şi au zis unul către altul: \"Veniţi să tragem la sorţi, ca să ştim din pricina cui a venit peste noi nenorocirea aceasta!\" Au tras la sorţi, şi sorţul a căzut pe Iona.",
           en: "1:7. And they said every one to his fellow, Come, and let us cast lots, that we may know for whose cause this evil is upon us. So they cast lots, and the lot fell upon Jonah."
@@ -229,7 +229,7 @@ angular.module('galleryApp', [])
       {
         id: 12,
         img: '12.png',
-        done: 40,
+        done: 50,
         text: {
           ro: "1:8. Atunci ei i-au zis: \"Spune-ne din pricina cui a venit peste noi nenorocirea aceasta? Ce meserie ai şi de unde vii? Care îţi este ţara şi din ce popor eşti?\"",
           en: "1:8. Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?"
@@ -238,7 +238,7 @@ angular.module('galleryApp', [])
       {
         id: 13,
         img: '13.png',
-        done: 40,
+        done: 60,
         text: {
           ro: "1:9. El le-a răspuns: \"Sunt evreu, şi mă tem de Domnul Dumnezeul cerurilor care a făcut marea şi uscatul!\"",
           en: "1:9. And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land."
@@ -247,7 +247,7 @@ angular.module('galleryApp', [])
       {
         id: 14,
         img: '14.png',
-        done: 40,
+        done: 60,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
@@ -256,7 +256,7 @@ angular.module('galleryApp', [])
       {
         id: 15,
         img: '15.png',
-        done: 50,
+        done: 70,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
@@ -265,7 +265,7 @@ angular.module('galleryApp', [])
       {
         id: 16,
         img: '16.png',
-        done: 50,
+        done: 70,
         text: {
           ro: "1:12. El le-a răspuns: \"Luaţi-mă şi aruncaţi-mă în mare, şi marea se va linişti faţă de voi! Căci ştiu că din vina mea vine peste voi această mare furtună!\"",
           en: "1:12. And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you."
