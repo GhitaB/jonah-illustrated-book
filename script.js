@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 119;  // EDIT HERE
+    gallery.worked_hours = 120;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -310,7 +310,7 @@ angular.module('galleryApp', [])
       {
         id: 21,
         img: '21.png',
-        done: 30,
+        done: 70,
         text: {
           ro: "1:16. Pe oamenii aceia i-a apucat o mare frică de Domnul, şi au adus Domnului o jertfă, şi I-au făcut juruinţe.",
           en: "1:16. Then the men feared the LORD exceedingly, and offered a sacrifice unto the LORD, and made vows."
@@ -328,7 +328,7 @@ angular.module('galleryApp', [])
       {
         id: 23,
         img: '23.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:1. Iona s-a rugat Domnului Dumnezeului său din pântecele peştelui",
           en: "2:1. Then Jonah prayed unto the LORD his God out of the fish's belly,"
@@ -337,7 +337,7 @@ angular.module('galleryApp', [])
       {
         id: 24,
         img: '24.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul.",
           en: "2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice."
@@ -346,7 +346,7 @@ angular.module('galleryApp', [])
       {
         id: 25,
         img: '25.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine.",
           en: "2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me."
