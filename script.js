@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 120;  // EDIT HERE
+    gallery.worked_hours = 121;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -427,7 +427,7 @@ angular.module('galleryApp', [])
       {
         id: 34,
         img: '34.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi vesteşte acolo strigarea pe care ţi-o voi da!\"",
           en: "3:2. Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee."
@@ -436,7 +436,7 @@ angular.module('galleryApp', [])
       {
         id: 35,
         img: '35.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:3A. Şi Iona s-a sculat şi s-a dus la Ninive, după cuvântul Domnului.",
           en: "3:3A. So Jonah arose, and went unto Nineveh, according to the word of the LORD. "
@@ -445,7 +445,7 @@ angular.module('galleryApp', [])
       {
         id: 36,
         img: '36.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:3B. Şi Ninive era o cetate foarte mare, cât o călătorie de trei zile.",
           en: "3:3B. Now Nineveh was an exceeding great city of three days' journey."
@@ -454,7 +454,7 @@ angular.module('galleryApp', [])
       {
         id: 37,
         img: '37.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:4. Iona a început să pătrundă în oraş, cale de o zi, strigând şi zicând: \"Încă patruzeci de zile, şi Ninive va fi nimicită!\"",
           en: "3:4. And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown."
@@ -463,7 +463,7 @@ angular.module('galleryApp', [])
       {
         id: 38,
         img: '38.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici.",
           en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them."
@@ -472,7 +472,7 @@ angular.module('galleryApp', [])
       {
         id: 39,
         img: '39.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:6. Lucrul a ajuns la urechea împăratului din Ninive; el s-a sculat de pe scaunul lui de domnie, şi-a scos mantia de pe el, s-a acoperit cu un sac şi a şezut în cenuşă.",
           en: "3:6. For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes."
