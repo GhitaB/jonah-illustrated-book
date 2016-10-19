@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 118.5;  // EDIT HERE
+    gallery.worked_hours = 119;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -274,7 +274,7 @@ angular.module('galleryApp', [])
       {
         id: 17,
         img: '17.png',
-        done: 30,
+        done: 70,
         text: {
           ro: "1:13. Oamenii aceştia vâsleau ca să ajungă la uscat, dar nu puteau, pentru că marea se întărâta tot mai mult împotriva lor.",
           en: "1:13. Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them."
