@@ -301,7 +301,7 @@ angular.module('galleryApp', [])
       {
         id: 20,
         img: '20.png',
-        done: 30,
+        done: 70,
         text: {
           ro: "1:15B. Şi furia mării s-a potolit.",
           en: "1:15B. and the sea ceased from her raging."
