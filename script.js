@@ -580,7 +580,7 @@ angular.module('galleryApp', [])
       {
         id: 51,
         img: '51.png',
-        done: 60,
+        done: 80,
         text: {
           ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
           en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
@@ -589,7 +589,7 @@ angular.module('galleryApp', [])
       {
         id: 52,
         img: '52.png',
-        done: 60,
+        done: 80,
         text: {
           ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
           en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
