@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 121;  // EDIT HERE
+    gallery.worked_hours = 122.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -490,7 +490,7 @@ angular.module('galleryApp', [])
       {
         id: 41,
         img: '41.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile!",
           en: "3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands."
@@ -499,7 +499,7 @@ angular.module('galleryApp', [])
       {
         id: 42,
         img: '42.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:9. Cine ştie dacă nu Se va întoarce Dumnezeu şi Se va căi, şi dacă nu-Şi va opri mânia Lui aprinsă, ca să nu pierim!\"",
           en: "3:9. Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?"
@@ -508,7 +508,7 @@ angular.module('galleryApp', [])
       {
         id: 43,
         img: '43.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "3:10. Dumnezeu a văzut ce făceau ei şi că se întorceau de la calea lor cea rea. Atunci Dumnezeu S-a căit de răul pe care Se hotărâse să li-l facă şi nu l-a făcut.",
           en: "3:10. And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not."
@@ -517,7 +517,7 @@ angular.module('galleryApp', [])
       {
         id: 44,
         img: '44.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "4:1. Lucrul acesta n-a plăcut deloc lui Iona, şi s-a mâniat.",
           en: "4:1. But it displeased Jonah exceedingly, and he was very angry."
@@ -526,7 +526,7 @@ angular.module('galleryApp', [])
       {
         id: 45,
         img: '45.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "4:2. S-a rugat Domnului şi a zis: \"Ah! Doamne, nu este aceasta tocmai ce ziceam eu când eram încă în ţara mea? Tocmai lucrul acesta voiam să-l înlătur fugind la Tars. Căci ştiam că eşti un Dumnezeu milos şi plin de îndurare, îndelung răbdător şi bogat în bunătate, şi că Te căieşti de rău!",
           en: "4:2. And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil."
@@ -535,7 +535,7 @@ angular.module('galleryApp', [])
       {
         id: 46,
         img: '46.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "4:3. Acum, Doamne, ia-mi viaţa, căci vreau mai bine să mor decât să trăiesc!\"",
           en: "4:3. Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live."
@@ -544,7 +544,7 @@ angular.module('galleryApp', [])
       {
         id: 47,
         img: '47.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\"",
           en: "4:4. Then said the LORD, Doest thou well to be angry?"
@@ -553,7 +553,7 @@ angular.module('galleryApp', [])
       {
         id: 48,
         img: '48.png',
-        done: 20,
+        done: 60,
         text: {
           ro: "4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
           en: "4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
@@ -562,7 +562,7 @@ angular.module('galleryApp', [])
       {
         id: 49,
         img: '49.png',
-        done: 30,
+        done: 70,
         text: {
           ro: "4:6. Domnul Dumnezeu a făcut să crească un curcubete care s-a ridicat peste Iona ca să facă umbră capului lui şi să-l facă să-i treacă mânia. Iona s-a bucurat foarte mult de curcubetele acesta.",
           en: "4:6. And the LORD God prepared a gourd, and made it to come up over Jonah, that it might be a shadow over his head, to deliver him from his grief. So Jonah was exceeding glad of the gourd."
@@ -571,7 +571,7 @@ angular.module('galleryApp', [])
       {
         id: 50,
         img: '50.png',
-        done: 45,
+        done: 70,
         text: {
           ro: "4:7. Dar a doua zi, la răsăritul soarelui, Dumnezeu a adus un vierme care a înţepat curcubetele, şi curcubetele s-a uscat.",
           en: "4:7. But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered."
