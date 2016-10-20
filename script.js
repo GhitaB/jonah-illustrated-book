@@ -166,7 +166,7 @@ angular.module('galleryApp', [])
       {
         id: 5,
         img: '05.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:3C. A plătit preţul călătoriei şi s-a suit în corabie ca să meargă împreună cu călătorii la Tars, departe de faţa Domnului.",
           en: "1:3C. so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD."
@@ -175,7 +175,7 @@ angular.module('galleryApp', [])
       {
         id: 6,
         img: '06.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:4. Dar Domnul a făcut să sufle pe mare un vânt năprasnic şi a stârnit o mare furtună. Corabia ameninţa să se sfărâme.",
           en: "1:4. But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken."
@@ -184,7 +184,7 @@ angular.module('galleryApp', [])
       {
         id: 7,
         img: '07.png',
-        done: 50,
+        done: 60,
         text: {
           ro: "1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui",
           en: "1:5A. Then the mariners were afraid, and cried every man unto his god, "
@@ -202,7 +202,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 60,
+        done: 70,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
@@ -211,7 +211,7 @@ angular.module('galleryApp', [])
       {
         id: 10,
         img: '10.png',
-        done: 60,
+        done: 70,
         text: {
           ro: "1:6. Cârmaciul s-a apropiat de el şi i-a zis: \"Ce dormi? Scoală-te şi cheamă pe Dumnezeul tău! Poate că Dumnezeu va voi să Se gândească la noi şi nu vom pieri!\"",
           en: "1:6. So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not."
@@ -229,7 +229,7 @@ angular.module('galleryApp', [])
       {
         id: 12,
         img: '12.png',
-        done: 50,
+        done: 60,
         text: {
           ro: "1:8. Atunci ei i-au zis: \"Spune-ne din pricina cui a venit peste noi nenorocirea aceasta? Ce meserie ai şi de unde vii? Care îţi este ţara şi din ce popor eşti?\"",
           en: "1:8. Then said they unto him, Tell us, we pray thee, for whose cause this evil is upon us; What is thine occupation? and whence comest thou? what is thy country? and of what people art thou?"
@@ -238,7 +238,7 @@ angular.module('galleryApp', [])
       {
         id: 13,
         img: '13.png',
-        done: 60,
+        done: 70,
         text: {
           ro: "1:9. El le-a răspuns: \"Sunt evreu, şi mă tem de Domnul Dumnezeul cerurilor care a făcut marea şi uscatul!\"",
           en: "1:9. And he said unto them, I am an Hebrew; and I fear the LORD, the God of heaven, which hath made the sea and the dry land."
@@ -247,7 +247,7 @@ angular.module('galleryApp', [])
       {
         id: 14,
         img: '14.png',
-        done: 60,
+        done: 70,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
@@ -256,7 +256,7 @@ angular.module('galleryApp', [])
       {
         id: 15,
         img: '15.png',
-        done: 70,
+        done: 80,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
@@ -319,7 +319,7 @@ angular.module('galleryApp', [])
       {
         id: 22,
         img: '22.png',
-        done: 30,
+        done: 60,
         text: {
           ro: "1:17. Domnul a trimis un peşte mare să înghită pe Iona, şi Iona a stat în pântecele peştelui trei zile şi trei nopţi.",
           en: "1.17. Now the LORD had prepared a great fish to swallow up Jonah. And Jonah was in the belly of the fish three days and three nights."
@@ -355,7 +355,7 @@ angular.module('galleryApp', [])
       {
         id: 26,
         img: '26.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\"",
           en: "2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple."
@@ -364,7 +364,7 @@ angular.module('galleryApp', [])
       {
         id: 27,
         img: '27.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu.",
           en: "2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head."
@@ -373,7 +373,7 @@ angular.module('galleryApp', [])
       {
         id: 28,
         img: '28.png',
-        done: 20,
+        done: 70,
         text: {
           ro: "2:6. M-am coborât până la temeliile munţilor, zăvoarele pământului mă încuiau pe vecie; dar Tu m-ai scos viu din groapă, Doamne Dumnezeul meu!",
           en: "2:6. I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God."
@@ -382,14 +382,14 @@ angular.module('galleryApp', [])
       {
         id: 29,
         img: '29.png',
-        done: 60,
+        done: 70,
         text: {
           ro: "2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt.",
           en: "2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple."
         }
       },
       {
-        id: 30,
+        id: 90,
         img: '30.png',
         done: 70,
         text: {
@@ -400,7 +400,7 @@ angular.module('galleryApp', [])
       {
         id: 31,
         img: '31.png',
-        done: 50,
+        done: 70,
         text: {
           ro: "2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
           en: "2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
@@ -481,7 +481,7 @@ angular.module('galleryApp', [])
       {
         id: 40,
         img: '40.png',
-        done: 30,
+        done: 60,
         text: {
           ro: "3:7. Şi a trimis să se dea de ştire în Ninive, din porunca împăratului şi mai marilor lui, următoarele: \"Oamenii şi vitele, boii şi oile să nu guste nimic, să nu pască şi nici să nu bea apă deloc!",
           en: "3:7. And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:"
@@ -580,7 +580,7 @@ angular.module('galleryApp', [])
       {
         id: 51,
         img: '51.png',
-        done: 25,
+        done: 60,
         text: {
           ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
           en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
@@ -589,7 +589,7 @@ angular.module('galleryApp', [])
       {
         id: 52,
         img: '52.png',
-        done: 25,
+        done: 60,
         text: {
           ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
           en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
@@ -598,7 +598,7 @@ angular.module('galleryApp', [])
       {
         id: 53,
         img: '53.png',
-        done: 25,
+        done: 60,
         text: {
           ro: "4:9. Dar Dumnezeu a zis lui Iona: \"Bine faci tu de te mânii din pricina curcubetelui?\" El a răspuns: \"Da, bine fac că mă mânii până la moarte!\"",
           en: "4:9. And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death."
@@ -607,7 +607,7 @@ angular.module('galleryApp', [])
       {
         id: 54,
         img: '54.png',
-        done: 25,
+        done: 60,
         text: {
           ro: "4:10. Atunci şi Domnul a zis: \"Ţie îţi este milă de curcubetele acesta, care nu te-a costat nicio trudă şi pe care nu tu l-ai făcut să crească, ci într-o noapte s-a născut şi într-o noapte a pierit.",
           en: "4:10. Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:"
@@ -616,7 +616,7 @@ angular.module('galleryApp', [])
       {
         id: 55,
         img: '55.png',
-        done: 25,
+        done: 50,
         text: {
           ro: "4:11. Şi Mie să nu-Mi fie milă de Ninive, cetatea cea mare, în care se află mai mult de o sută douăzeci de mii de oameni care nu ştiu să deosebească dreapta de stânga lor, afară de o mulţime de vite!\"",
           en: "4:11. And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"
