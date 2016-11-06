@@ -77,11 +77,6 @@ angular.module('galleryApp', [])
       en: "You can help."
     };
 
-    gallery.ask_me_how = {
-      ro: "Întreabă-mă cum.",
-      en: "Ask me how."
-    };
-
     gallery.credits = {
       title: {
         ro: "Mulțumiri",
