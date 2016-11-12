@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 123;  // EDIT HERE
+    gallery.worked_hours = 124;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -161,7 +161,7 @@ angular.module('galleryApp', [])
       {
         id: 5,
         img: '05.png',
-        done: 95,
+        done: 100,
         text: {
           ro: "1:3C. A plătit preţul călătoriei şi s-a suit în corabie ca să meargă împreună cu călătorii la Tars, departe de faţa Domnului.",
           en: "1:3C. so he paid the fare thereof, and went down into it, to go with them unto Tarshish from the presence of the LORD."
