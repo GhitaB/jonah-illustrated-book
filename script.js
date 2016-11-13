@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 124;  // EDIT HERE
+    gallery.worked_hours = 124.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -170,7 +170,7 @@ angular.module('galleryApp', [])
       {
         id: 6,
         img: '06.png',
-        done: 95,
+        done: 100,
         text: {
           ro: "1:4. Dar Domnul a făcut să sufle pe mare un vânt năprasnic şi a stârnit o mare furtună. Corabia ameninţa să se sfărâme.",
           en: "1:4. But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken."
