@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 131;  // EDIT HERE
+    gallery.worked_hours = 132;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -242,7 +242,7 @@ angular.module('galleryApp', [])
       {
         id: 14,
         img: '14.png',
-        done: 50,
+        done: 70,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
