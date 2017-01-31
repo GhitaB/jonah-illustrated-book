@@ -269,7 +269,7 @@ angular.module('galleryApp', [])
       {
         id: 17,
         img: '17.png',
-        done: 50,
+        done: 60,
         text: {
           ro: "1:13. Oamenii aceştia vâsleau ca să ajungă la uscat, dar nu puteau, pentru că marea se întărâta tot mai mult împotriva lor.",
           en: "1:13. Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them."
