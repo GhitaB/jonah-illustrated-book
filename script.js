@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 132;  // EDIT HERE
+    gallery.worked_hours = 133;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -602,7 +602,7 @@ angular.module('galleryApp', [])
       {
         id: 54,
         img: '54.png',
-        done: 40,
+        done: 90,
         text: {
           ro: "4:10. Atunci şi Domnul a zis: \"Ţie îţi este milă de curcubetele acesta, care nu te-a costat nicio trudă şi pe care nu tu l-ai făcut să crească, ci într-o noapte s-a născut şi într-o noapte a pierit.",
           en: "4:10. Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:"
