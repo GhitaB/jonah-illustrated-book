@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 136;  // EDIT HERE
+    gallery.worked_hours = 137;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -458,7 +458,7 @@ angular.module('galleryApp', [])
       {
         id: 38,
         img: '38.png',
-        done: 40,
+        done: 70,
         text: {
           ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici.",
           en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them."
