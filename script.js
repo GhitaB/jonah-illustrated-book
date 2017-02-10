@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 137.5;  // EDIT HERE
+    gallery.worked_hours = 138;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -485,7 +485,7 @@ angular.module('galleryApp', [])
       {
         id: 41,
         img: '41.png',
-        done: 40,
+        done: 70,
         text: {
           ro: "3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile!",
           en: "3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands."
