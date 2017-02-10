@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 138;  // EDIT HERE
+    gallery.worked_hours = 138.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -494,7 +494,7 @@ angular.module('galleryApp', [])
       {
         id: 42,
         img: '42.png',
-        done: 40,
+        done: 70,
         text: {
           ro: "3:9. Cine ştie dacă nu Se va întoarce Dumnezeu şi Se va căi, şi dacă nu-Şi va opri mânia Lui aprinsă, ca să nu pierim!\"",
           en: "3:9. Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?"
