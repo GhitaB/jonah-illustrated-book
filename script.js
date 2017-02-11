@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 138.5;  // EDIT HERE
+    gallery.worked_hours = 139.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -593,7 +593,7 @@ angular.module('galleryApp', [])
       {
         id: 53,
         img: '53.png',
-        done: 40,
+        done: 90,
         text: {
           ro: "4:9. Dar Dumnezeu a zis lui Iona: \"Bine faci tu de te mânii din pricina curcubetelui?\" El a răspuns: \"Da, bine fac că mă mânii până la moarte!\"",
           en: "4:9. And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death."
