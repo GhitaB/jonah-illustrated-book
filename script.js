@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 144;  // EDIT HERE
+    gallery.worked_hours = 145;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -350,7 +350,7 @@ angular.module('galleryApp', [])
       {
         id: 26,
         img: '26.png',
-        done: 50,
+        done: 90,
         text: {
           ro: "2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\"",
           en: "2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple."
