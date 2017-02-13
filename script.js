@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 143.5;  // EDIT HERE
+    gallery.worked_hours = 144;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -341,7 +341,7 @@ angular.module('galleryApp', [])
       {
         id: 25,
         img: '25.png',
-        done: 50,
+        done: 90,
         text: {
           ro: "2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine.",
           en: "2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me."
