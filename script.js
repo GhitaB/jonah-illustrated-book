@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 142.5;  // EDIT HERE
+    gallery.worked_hours = 143;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -251,7 +251,7 @@ angular.module('galleryApp', [])
       {
         id: 15,
         img: '15.png',
-        done: 60,
+        done: 90,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
