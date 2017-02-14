@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 146;  // EDIT HERE
+    gallery.worked_hours = 146.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -332,7 +332,7 @@ angular.module('galleryApp', [])
       {
         id: 24,
         img: '24.png',
-        done: 60,
+        done: 90,
         text: {
           ro: "2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul.",
           en: "2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice."
