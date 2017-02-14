@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 145.5;  // EDIT HERE
+    gallery.worked_hours = 146;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -296,7 +296,7 @@ angular.module('galleryApp', [])
       {
         id: 20,
         img: '20.png',
-        done: 50,
+        done: 90,
         text: {
           ro: "1:15B. Şi furia mării s-a potolit.",
           en: "1:15B. and the sea ceased from her raging."
