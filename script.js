@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 146.5;  // EDIT HERE
+    gallery.worked_hours = 147;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -548,7 +548,7 @@ angular.module('galleryApp', [])
       {
         id: 48,
         img: '48.png',
-        done: 40,
+        done: 75,
         text: {
           ro: "4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
           en: "4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
