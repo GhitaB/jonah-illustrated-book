@@ -188,7 +188,7 @@ angular.module('galleryApp', [])
       {
         id: 8,
         img: '08.png',
-        done: 80,
+        done: 95,
         text: {
           ro: "1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară.",
           en: "1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them."
@@ -197,7 +197,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 95,
+        done: 80,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
