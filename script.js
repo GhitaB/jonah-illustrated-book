@@ -197,7 +197,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 80,
+        done: 95,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
