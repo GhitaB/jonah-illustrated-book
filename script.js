@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 147.5;  // EDIT HERE
+    gallery.worked_hours = 148.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -566,7 +566,7 @@ angular.module('galleryApp', [])
       {
         id: 50,
         img: '50.png',
-        done: 70,
+        done: 90,
         text: {
           ro: "4:7. Dar a doua zi, la răsăritul soarelui, Dumnezeu a adus un vierme care a înţepat curcubetele, şi curcubetele s-a uscat.",
           en: "4:7. But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered."
