@@ -539,7 +539,7 @@ angular.module('galleryApp', [])
       {
         id: 47,
         img: '47.png',
-        done: 95,
+        done: 100,
         text: {
           ro: "4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\"",
           en: "4:4. Then said the LORD, Doest thou well to be angry?"
