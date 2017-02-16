@@ -458,7 +458,7 @@ angular.module('galleryApp', [])
       {
         id: 38,
         img: '38.png',
-        done: 70,
+        done: 95,
         text: {
           ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici.",
           en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them."
