@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 148.5;  // EDIT HERE
+    gallery.worked_hours = 149;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -575,7 +575,7 @@ angular.module('galleryApp', [])
       {
         id: 51,
         img: '51.png',
-        done: 50,
+        done: 95,
         text: {
           ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
           en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
