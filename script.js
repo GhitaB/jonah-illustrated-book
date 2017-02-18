@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 149;  // EDIT HERE
+    gallery.worked_hours = 149.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -359,7 +359,7 @@ angular.module('galleryApp', [])
       {
         id: 27,
         img: '27.png',
-        done: 50,
+        done: 95,
         text: {
           ro: "2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu.",
           en: "2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head."
