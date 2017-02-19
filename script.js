@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 149.5;  // EDIT HERE
+    gallery.worked_hours = 150;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -179,7 +179,7 @@ angular.module('galleryApp', [])
       {
         id: 7,
         img: '07.png',
-        done: 90,
+        done: 100,
         text: {
           ro: "1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui",
           en: "1:5A. Then the mariners were afraid, and cried every man unto his god, "
