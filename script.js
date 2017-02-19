@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 154.5;  // EDIT HERE
+    gallery.worked_hours = 155;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -593,7 +593,7 @@ angular.module('galleryApp', [])
       {
         id: 52,
         img: '52.png',
-        done: 50,
+        done: 100,
         text: {
           ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
           en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
