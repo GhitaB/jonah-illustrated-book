@@ -125,7 +125,7 @@ angular.module('galleryApp', [])
       {
         id: 0,
         img: '00.png',
-        done: 10,
+        done: 70,
         text: {
           ro: "Coperta cărții",
           en: "Book cover"
