@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 150;  // EDIT HERE
+    gallery.worked_hours = 150.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -188,7 +188,7 @@ angular.module('galleryApp', [])
       {
         id: 8,
         img: '08.png',
-        done: 95,
+        done: 100,
         text: {
           ro: "1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară.",
           en: "1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them."
