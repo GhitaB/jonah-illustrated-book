@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 154;  // EDIT HERE
+    gallery.worked_hours = 154.5;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -395,7 +395,7 @@ angular.module('galleryApp', [])
       {
         id: 30,
         img: '30.png',
-        done: 80,
+        done: 100,
         text: {
           ro: "2:8. Cei ce se lipesc de idoli deşerţi îndepărtează îndurarea de la ei.",
           en: "2:8. They that observe lying vanities forsake their own mercy."
