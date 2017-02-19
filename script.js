@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 151.5;  // EDIT HERE
+    gallery.worked_hours = 153;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -206,7 +206,7 @@ angular.module('galleryApp', [])
       {
         id: 10,
         img: '10.png',
-        done: 50,
+        done: 85,
         text: {
           ro: "1:6. Cârmaciul s-a apropiat de el şi i-a zis: \"Ce dormi? Scoală-te şi cheamă pe Dumnezeul tău! Poate că Dumnezeu va voi să Se gândească la noi şi nu vom pieri!\"",
           en: "1:6. So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not."
