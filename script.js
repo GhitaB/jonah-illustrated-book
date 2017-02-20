@@ -125,7 +125,7 @@ angular.module('galleryApp', [])
       {
         id: 0,
         img: '00.png',
-        done: 70,
+        done: 50,
         text: {
           ro: "Coperta cărții",
           en: "Book cover"
@@ -179,7 +179,7 @@ angular.module('galleryApp', [])
       {
         id: 6,
         img: '06.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:4. Dar Domnul a făcut să sufle pe mare un vânt năprasnic şi a stârnit o mare furtună. Corabia ameninţa să se sfărâme.",
           en: "1:4. But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken."
@@ -188,7 +188,7 @@ angular.module('galleryApp', [])
       {
         id: 7,
         img: '07.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui",
           en: "1:5A. Then the mariners were afraid, and cried every man unto his god, "
@@ -197,7 +197,7 @@ angular.module('galleryApp', [])
       {
         id: 8,
         img: '08.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară.",
           en: "1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them."
@@ -206,7 +206,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 90,
+        done: 85,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
@@ -251,7 +251,7 @@ angular.module('galleryApp', [])
       {
         id: 14,
         img: '14.png',
-        done: 90,
+        done: 80,
         text: {
           ro: "1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
           en: "1:10. Then were the men exceedingly afraid, and said unto him, Why hast thou done this? For the men knew that he fled from the presence of the LORD, because he had told them."
@@ -260,7 +260,7 @@ angular.module('galleryApp', [])
       {
         id: 15,
         img: '15.png',
-        done: 90,
+        done: 70,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată.",
           en: "1:11. Then said they unto him, What shall we do unto thee, that the sea may be calm unto us? for the sea wrought, and was tempestuous."
@@ -269,7 +269,7 @@ angular.module('galleryApp', [])
       {
         id: 16,
         img: '16.png',
-        done: 90,
+        done: 85,
         text: {
           ro: "1:12. El le-a răspuns: \"Luaţi-mă şi aruncaţi-mă în mare, şi marea se va linişti faţă de voi! Căci ştiu că din vina mea vine peste voi această mare furtună!\"",
           en: "1:12. And he said unto them, Take me up, and cast me forth into the sea; so shall the sea be calm unto you: for I know that for my sake this great tempest is upon you."
@@ -278,7 +278,7 @@ angular.module('galleryApp', [])
       {
         id: 17,
         img: '17.png',
-        done: 100,
+        done: 95,
         text: {
           ro: "1:13. Oamenii aceştia vâsleau ca să ajungă la uscat, dar nu puteau, pentru că marea se întărâta tot mai mult împotriva lor.",
           en: "1:13. Nevertheless the men rowed hard to bring it to the land; but they could not: for the sea wrought, and was tempestuous against them."
@@ -305,7 +305,7 @@ angular.module('galleryApp', [])
       {
         id: 20,
         img: '20.png',
-        done: 90,
+        done: 85,
         text: {
           ro: "1:15B. Şi furia mării s-a potolit.",
           en: "1:15B. and the sea ceased from her raging."
@@ -341,7 +341,7 @@ angular.module('galleryApp', [])
       {
         id: 24,
         img: '24.png',
-        done: 90,
+        done: 80,
         text: {
           ro: "2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul.",
           en: "2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice."
@@ -359,7 +359,7 @@ angular.module('galleryApp', [])
       {
         id: 26,
         img: '26.png',
-        done: 90,
+        done: 80,
         text: {
           ro: "2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\"",
           en: "2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple."
@@ -368,7 +368,7 @@ angular.module('galleryApp', [])
       {
         id: 27,
         img: '27.png',
-        done: 95,
+        done: 80,
         text: {
           ro: "2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu.",
           en: "2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head."
@@ -404,7 +404,7 @@ angular.module('galleryApp', [])
       {
         id: 31,
         img: '31.png',
-        done: 50,
+        done: 45,
         text: {
           ro: "2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
           en: "2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
@@ -422,7 +422,7 @@ angular.module('galleryApp', [])
       {
         id: 33,
         img: '33.png',
-        done: 50,
+        done: 45,
         text: {
           ro: "3:1. Cuvântul Domnului a vorbit a doua oară lui Iona astfel:",
           en: "3:1. And the word of the LORD came unto Jonah the second time, saying,"
@@ -431,7 +431,7 @@ angular.module('galleryApp', [])
       {
         id: 34,
         img: '34.png',
-        done: 50,
+        done: 45,
         text: {
           ro: "3:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi vesteşte acolo strigarea pe care ţi-o voi da!\"",
           en: "3:2. Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee."
@@ -494,7 +494,7 @@ angular.module('galleryApp', [])
       {
         id: 41,
         img: '41.png',
-        done: 70,
+        done: 60,
         text: {
           ro: "3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile!",
           en: "3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands."
@@ -548,7 +548,7 @@ angular.module('galleryApp', [])
       {
         id: 47,
         img: '47.png',
-        done: 100,
+        done: 90,
         text: {
           ro: "4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\"",
           en: "4:4. Then said the LORD, Doest thou well to be angry?"
@@ -557,7 +557,7 @@ angular.module('galleryApp', [])
       {
         id: 48,
         img: '48.png',
-        done: 75,
+        done: 70,
         text: {
           ro: "4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
           en: "4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
@@ -584,7 +584,7 @@ angular.module('galleryApp', [])
       {
         id: 51,
         img: '51.png',
-        done: 95,
+        done: 80,
         text: {
           ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
           en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
@@ -593,7 +593,7 @@ angular.module('galleryApp', [])
       {
         id: 52,
         img: '52.png',
-        done: 100,
+        done: 90,
         text: {
           ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
           en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
