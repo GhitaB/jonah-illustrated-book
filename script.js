@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 155;  // EDIT HERE
+    gallery.worked_hours = 156;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -206,7 +206,7 @@ angular.module('galleryApp', [])
       {
         id: 9,
         img: '09.png',
-        done: 85,
+        done: 90,
         text: {
           ro: "1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus.",
           en: "1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep."
