@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 156;  // EDIT HERE
+    gallery.worked_hours = 157;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -125,7 +125,7 @@ angular.module('galleryApp', [])
       {
         id: 0,
         img: '00.png',
-        done: 50,
+        done: 55,
         text: {
           ro: "Coperta cărții",
           en: "Book cover"
