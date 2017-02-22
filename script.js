@@ -150,7 +150,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 5,
+        id: 3,
         img: '05.png',
         done: 100,
         text: {
@@ -159,7 +159,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 6,
+        id: 4,
         img: '06.png',
         done: 95,
         text: {
@@ -168,7 +168,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 7,
+        id: 5,
         img: '07.png',
         done: 95,
         text: {
@@ -177,7 +177,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 8,
+        id: 6,
         img: '08.png',
         done: 95,
         text: {
@@ -186,7 +186,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 9,
+        id: 7,
         img: '09.png',
         done: 85,
         text: {
@@ -195,7 +195,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 10,
+        id: 8,
         img: '10.png',
         done: 85,
         text: {
@@ -204,7 +204,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 11,
+        id: 9,
         img: '11.png',
         done: 50,
         text: {
@@ -213,7 +213,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 12,
+        id: 10,
         img: '12.png',
         done: 50,
         text: {
@@ -222,7 +222,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 13,
+        id: 11,
         img: '13.png',
         done: 50,
         text: {
@@ -231,7 +231,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 14,
+        id: 12,
         img: '14.png',
         done: 80,
         text: {
@@ -240,7 +240,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 15,
+        id: 13,
         img: '15.png',
         done: 70,
         text: {
@@ -249,7 +249,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 16,
+        id: 14,
         img: '16.png',
         done: 85,
         text: {
@@ -258,7 +258,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 17,
+        id: 15,
         img: '17.png',
         done: 95,
         text: {
@@ -267,7 +267,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 18,
+        id: 16,
         img: '18.png',
         done: 60,
         text: {
@@ -276,7 +276,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 19,
+        id: 17,
         img: '19.png',
         done: 50,
         text: {
@@ -285,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 20,
+        id: 18,
         img: '20.png',
         done: 85,
         text: {
@@ -294,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 21,
+        id: 19,
         img: '21.png',
         done: 60,
         text: {
@@ -303,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 20,
         img: '22.png',
         done: 50,
         text: {
@@ -312,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 21,
         img: '23.png',
         done: 50,
         text: {
@@ -321,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 22,
         img: '24.png',
         done: 80,
         text: {
@@ -330,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 23,
         img: '25.png',
         done: 90,
         text: {
@@ -339,7 +339,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 24,
         img: '26.png',
         done: 80,
         text: {
@@ -348,7 +348,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 25,
         img: '27.png',
         done: 80,
         text: {
@@ -357,7 +357,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 28,
+        id: 26,
         img: '28.png',
         done: 50,
         text: {
@@ -366,7 +366,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 29,
+        id: 27,
         img: '29.png',
         done: 50,
         text: {
@@ -375,7 +375,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 30,
+        id: 28,
         img: '30.png',
         done: 100,
         text: {
@@ -384,7 +384,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 31,
+        id: 29,
         img: '31.png',
         done: 45,
         text: {
@@ -393,7 +393,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 32,
+        id: 30,
         img: '32.png',
         done: 50,
         text: {
@@ -402,7 +402,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 33,
+        id: 31,
         img: '33.png',
         done: 45,
         text: {
@@ -411,7 +411,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 34,
+        id: 32,
         img: '34.png',
         done: 45,
         text: {
@@ -420,7 +420,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 35,
+        id: 33,
         img: '35.png',
         done: 50,
         text: {
@@ -429,7 +429,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 36,
+        id: 34,
         img: '36.png',
         done: 50,
         text: {
@@ -438,7 +438,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 37,
+        id: 35,
         img: '37.png',
         done: 50,
         text: {
@@ -447,7 +447,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 38,
+        id: 36,
         img: '38.png',
         done: 95,
         text: {
@@ -456,7 +456,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 39,
+        id: 37,
         img: '39.png',
         done: 70,
         text: {
@@ -465,7 +465,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 40,
+        id: 38,
         img: '40.png',
         done: 50,
         text: {
@@ -474,7 +474,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 41,
+        id: 39,
         img: '41.png',
         done: 60,
         text: {
@@ -483,7 +483,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 42,
+        id: 40,
         img: '42.png',
         done: 70,
         text: {
@@ -492,7 +492,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 43,
+        id: 41,
         img: '43.png',
         done: 100,
         text: {
@@ -501,7 +501,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 44,
+        id: 42,
         img: '44.png',
         done: 40,
         text: {
@@ -510,7 +510,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 45,
+        id: 43,
         img: '45.png',
         done: 40,
         text: {
@@ -519,7 +519,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 46,
+        id: 44,
         img: '46.png',
         done: 40,
         text: {
@@ -528,7 +528,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 47,
+        id: 45,
         img: '47.png',
         done: 90,
         text: {
@@ -537,7 +537,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 48,
+        id: 46,
         img: '48.png',
         done: 70,
         text: {
@@ -546,7 +546,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 49,
+        id: 47,
         img: '49.png',
         done: 50,
         text: {
@@ -555,7 +555,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 50,
+        id: 48,
         img: '50.png',
         done: 90,
         text: {
@@ -564,7 +564,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 51,
+        id: 49,
         img: '51.png',
         done: 80,
         text: {
@@ -573,7 +573,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 52,
+        id: 50,
         img: '52.png',
         done: 90,
         text: {
@@ -582,7 +582,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 53,
+        id: 51,
         img: '53.png',
         done: 100,
         text: {
@@ -591,7 +591,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 54,
+        id: 52,
         img: '54.png',
         done: 100,
         text: {
@@ -600,7 +600,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 55,
+        id: 53,
         img: '55.png',
         done: 85,
         text: {
