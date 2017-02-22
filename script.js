@@ -161,7 +161,7 @@ angular.module('galleryApp', [])
       {
         id: 4,
         img: '04.png',
-        done: 95,
+        done: 70,
         text: {
           ro: "1:4. Dar Domnul a făcut să sufle pe mare un vânt năprasnic şi a stârnit o mare furtună. Corabia ameninţa să se sfărâme. 1:5A. Corăbierii s-au temut, au strigat fiecare la dumnezeul lui 1:5B. şi au aruncat în mare uneltele din corabie, ca s-o facă mai uşoară. 1:5C. Iona s-a coborât în fundul corăbiei, s-a culcat şi a adormit dus. 1:6. Cârmaciul s-a apropiat de el şi i-a zis: \"Ce dormi? Scoală-te şi cheamă pe Dumnezeul tău! Poate că Dumnezeu va voi să Se gândească la noi şi nu vom pieri!\"",
           en: "1:4. But the LORD sent out a great wind into the sea, and there was a mighty tempest in the sea, so that the ship was like to be broken. 1:5A. Then the mariners were afraid, and cried every man unto his god, 1:5B. and cast forth the wares that were in the ship into the sea, to lighten it of them. 1:5C. But Jonah was gone down into the sides of the ship; and he lay, and was fast asleep. 1:6. So the shipmaster came to him, and said unto him, What meanest thou, O sleeper? arise, call upon thy God, if so be that God will think upon us, that we perish not."
