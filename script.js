@@ -125,7 +125,7 @@ angular.module('galleryApp', [])
       {
         id: 0,
         img: '00.png',
-        done: 55,
+        done: 56,
         text: {
           ro: "Coperta cărții",
           en: "Book cover"
@@ -134,7 +134,7 @@ angular.module('galleryApp', [])
       {
         id: 1,
         img: '01.png',
-        done: 70,
+        done: 90,
         text: {
           ro: "1:1. Cuvântul Domnului a vorbit lui Iona, fiul lui Amitai, astfel: 1:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi strigă împotriva ei. Căci răutatea ei s-a suit până la Mine!\" 1:3A. Şi Iona s-a sculat să fugă la Tars, departe de faţa Domnului.",
           en: "1:1. Now the word of the LORD came unto Jonah the son of Amittai, saying, 1:2. Arise, go to Nineveh, that great city, and cry against it; for their wickedness is come up before me. 1:3A. But Jonah rose up to flee unto Tarshish from the presence of the LORD,"
@@ -143,7 +143,7 @@ angular.module('galleryApp', [])
       {
         id: 2,
         img: '02.png',
-        done: 70,
+        done: 90,
         text: {
           ro: "1:3B. S-a coborât la Iafo şi a găsit acolo o corabie care mergea la Tars.",
           en: "1:3B. and went down to Joppa; and he found a ship going to Tarshish:"
