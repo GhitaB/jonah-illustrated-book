@@ -169,7 +169,7 @@ angular.module('galleryApp', [])
       },
       {
         id: 5,
-        img: '11.png',
+        img: '05.png',
         done: 50,
         text: {
           ro: "1:7. Şi au zis unul către altul: \"Veniţi să tragem la sorţi, ca să ştim din pricina cui a venit peste noi nenorocirea aceasta!\" Au tras la sorţi, şi sorţul a căzut pe Iona. 1:8. Atunci ei i-au zis: \"Spune-ne din pricina cui a venit peste noi nenorocirea aceasta? Ce meserie ai şi de unde vii? Care îţi este ţara şi din ce popor eşti?\" 1:9. El le-a răspuns: \"Sunt evreu, şi mă tem de Domnul Dumnezeul cerurilor care a făcut marea şi uscatul!\" 1:10. Oamenii aceia au avut o mare teamă şi i-au zis: \"Pentru ce ai făcut lucrul acesta?\" Căci oamenii aceia ştiau că fugea de faţa Domnului, pentru că le spusese el.",
