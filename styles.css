@@ -35,7 +35,6 @@ div#gallery div.gallery-item {
 }
 
 div#gallery div.gallery-item img {
-  border-radius: 20px;
   max-height: 80vh;
   margin: 10px auto 0 auto;
 }
