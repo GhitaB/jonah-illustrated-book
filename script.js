@@ -178,7 +178,7 @@ angular.module('galleryApp', [])
       },
       {
         id: 6,
-        img: '15.png',
+        img: '06.png',
         done: 50,
         text: {
           ro: "1:11. Ei i-au zis: \"Ce să-ţi facem, ca să se potolească marea faţă de noi?\" Căci marea era din ce în ce mai înfuriată. 1:12. El le-a răspuns: \"Luaţi-mă şi aruncaţi-mă în mare, şi marea se va linişti faţă de voi! Căci ştiu că din vina mea vine peste voi această mare furtună!\"",
