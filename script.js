@@ -187,7 +187,7 @@ angular.module('galleryApp', [])
       },
       {
         id: 7,
-        img: '7.png',
+        img: '07.png',
         done: 30,
         text: {
           ro: "1:13. Oamenii aceştia vâsleau ca să ajungă la uscat, dar nu puteau, pentru că marea se întărâta tot mai mult împotriva lor. 1:14. Atunci au strigat către Domnul şi au zis: \"Doamne, nu ne pierde din pricina vieţii omului acestuia şi nu ne împovăra cu sânge nevinovat! Căci Tu, Doamne, faci ce vrei!\"",
