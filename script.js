@@ -295,8 +295,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 19,
-        img: '53.png',
-        done: 100,
+        img: '19.png',
+        done: 50,
         text: {
           ro: "4:9. Dar Dumnezeu a zis lui Iona: \"Bine faci tu de te mânii din pricina curcubetelui?\" El a răspuns: \"Da, bine fac că mă mânii până la moarte!\"",
           en: "4:9. And God said to Jonah, Doest thou well to be angry for the gourd? And he said, I do well to be angry, even unto death."
