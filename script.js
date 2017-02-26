@@ -286,33 +286,15 @@ angular.module('galleryApp', [])
       },
       {
         id: 18,
-        img: '50.png',
-        done: 90,
+        img: '18.png',
+        done: 30,
         text: {
-          ro: "4:7. Dar a doua zi, la răsăritul soarelui, Dumnezeu a adus un vierme care a înţepat curcubetele, şi curcubetele s-a uscat.",
-          en: "4:7. But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered."
+          ro: "4:7. Dar a doua zi, la răsăritul soarelui, Dumnezeu a adus un vierme care a înţepat curcubetele, şi curcubetele s-a uscat. 4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat. 4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
+          en: "4:7. But God prepared a worm when the morning rose the next day, and it smote the gourd that it withered. 4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted, 4:8B. and wished in himself to die, and said, It is better for me to die than to live."
         }
       },
       {
         id: 19,
-        img: '51.png',
-        done: 80,
-        text: {
-          ro: "4:8A. Când a răsărit soarele, Dumnezeu a făcut să sufle un vânt uscat de la răsărit, şi soarele a bătut peste capul lui Iona, şi Iona a leşinat.",
-          en: "4:8A. And it came to pass, when the sun did arise, that God prepared a vehement east wind; and the sun beat upon the head of Jonah, that he fainted,"
-        }
-      },
-      {
-        id: 20,
-        img: '52.png',
-        done: 90,
-        text: {
-          ro: "4:8B. Atunci a dorit să moară şi a zis: \"Mai bine să mor decât să trăiesc!\"",
-          en: "4:8B. and wished in himself to die, and said, It is better for me to die than to live."
-        }
-      },
-      {
-        id: 21,
         img: '53.png',
         done: 100,
         text: {
@@ -321,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 20,
         img: '54.png',
         done: 100,
         text: {
@@ -330,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 21,
         img: '55.png',
         done: 85,
         text: {
