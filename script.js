@@ -223,8 +223,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 11,
-        img: '32.png',
-        done: 50,
+        img: '11.png',
+        done: 30,
         text: {
           ro: "2:10. Domnul a vorbit peştelui, şi peştele a vărsat pe Iona pe pământ.",
           en: "2:10. And the LORD spake unto the fish, and it vomited out Jonah upon the dry land."
