@@ -304,8 +304,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 20,
-        img: '54.png',
-        done: 100,
+        img: '20.png',
+        done: 60,
         text: {
           ro: "4:10. Atunci şi Domnul a zis: \"Ţie îţi este milă de curcubetele acesta, care nu te-a costat nicio trudă şi pe care nu tu l-ai făcut să crească, ci într-o noapte s-a născut şi într-o noapte a pierit.",
           en: "4:10. Then said the LORD, Thou hast had pity on the gourd, for the which thou hast not laboured, neither madest it grow; which came up in a night, and perished in a night:"
