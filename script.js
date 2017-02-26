@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 167;  // EDIT HERE
+    gallery.worked_hours = 168;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -215,7 +215,7 @@ angular.module('galleryApp', [])
       {
         id: 10,
         img: '10.png',
-        done: 50,
+        done: 30,
         text: {
           ro: "2:1. Iona s-a rugat Domnului Dumnezeului său din pântecele peştelui 2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul. 2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine. 2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\" 2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu. 2:6. M-am coborât până la temeliile munţilor, zăvoarele pământului mă încuiau pe vecie; dar Tu m-ai scos viu din groapă, Doamne Dumnezeul meu! 2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt. 2:8. Cei ce se lipesc de idoli deşerţi îndepărtează îndurarea de la ei. 2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
           en: "2:1. Then Jonah prayed unto the LORD his God out of the fish's belly, 2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice. 2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me. 2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple. 2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head. 2:6. I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God. 2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple. 2:8. They that observe lying vanities forsake their own mercy. 2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
