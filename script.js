@@ -232,51 +232,15 @@ angular.module('galleryApp', [])
       },
       {
         id: 12,
-        img: '33.png',
-        done: 45,
+        img: '12.png',
+        done: 30,
         text: {
-          ro: "3:1. Cuvântul Domnului a vorbit a doua oară lui Iona astfel:",
-          en: "3:1. And the word of the LORD came unto Jonah the second time, saying,"
+          ro: "3:1. Cuvântul Domnului a vorbit a doua oară lui Iona astfel: 3:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi vesteşte acolo strigarea pe care ţi-o voi da!\" 3:3A. Şi Iona s-a sculat şi s-a dus la Ninive, după cuvântul Domnului. 3:3B. Şi Ninive era o cetate foarte mare, cât o călătorie de trei zile. 3:4. Iona a început să pătrundă în oraş, cale de o zi, strigând şi zicând: \"Încă patruzeci de zile, şi Ninive va fi nimicită!\"",
+          en: "3:1. And the word of the LORD came unto Jonah the second time, saying, 3:2. Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee. 3:3A. So Jonah arose, and went unto Nineveh, according to the word of the LORD. 3:3B. Now Nineveh was an exceeding great city of three days' journey. 3:4. And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown."
         }
       },
       {
         id: 13,
-        img: '34.png',
-        done: 45,
-        text: {
-          ro: "3:2. \"Scoală-te, du-te la Ninive, cetatea cea mare, şi vesteşte acolo strigarea pe care ţi-o voi da!\"",
-          en: "3:2. Arise, go unto Nineveh, that great city, and preach unto it the preaching that I bid thee."
-        }
-      },
-      {
-        id: 14,
-        img: '35.png',
-        done: 50,
-        text: {
-          ro: "3:3A. Şi Iona s-a sculat şi s-a dus la Ninive, după cuvântul Domnului.",
-          en: "3:3A. So Jonah arose, and went unto Nineveh, according to the word of the LORD. "
-        }
-      },
-      {
-        id: 15,
-        img: '36.png',
-        done: 50,
-        text: {
-          ro: "3:3B. Şi Ninive era o cetate foarte mare, cât o călătorie de trei zile.",
-          en: "3:3B. Now Nineveh was an exceeding great city of three days' journey."
-        }
-      },
-      {
-        id: 16,
-        img: '37.png',
-        done: 50,
-        text: {
-          ro: "3:4. Iona a început să pătrundă în oraş, cale de o zi, strigând şi zicând: \"Încă patruzeci de zile, şi Ninive va fi nimicită!\"",
-          en: "3:4. And Jonah began to enter into the city a day's journey, and he cried, and said, Yet forty days, and Nineveh shall be overthrown."
-        }
-      },
-      {
-        id: 17,
         img: '38.png',
         done: 95,
         text: {
@@ -285,7 +249,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 18,
+        id: 14,
         img: '39.png',
         done: 70,
         text: {
@@ -294,7 +258,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 19,
+        id: 15,
         img: '40.png',
         done: 50,
         text: {
@@ -303,7 +267,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 20,
+        id: 16,
         img: '41.png',
         done: 60,
         text: {
@@ -312,7 +276,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 21,
+        id: 17,
         img: '42.png',
         done: 70,
         text: {
@@ -321,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 18,
         img: '43.png',
         done: 100,
         text: {
@@ -330,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 19,
         img: '44.png',
         done: 40,
         text: {
@@ -339,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 20,
         img: '45.png',
         done: 40,
         text: {
@@ -348,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 21,
         img: '46.png',
         done: 40,
         text: {
@@ -357,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 22,
         img: '47.png',
         done: 90,
         text: {
@@ -366,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 23,
         img: '48.png',
         done: 70,
         text: {
@@ -375,7 +339,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 28,
+        id: 24,
         img: '49.png',
         done: 50,
         text: {
@@ -384,7 +348,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 29,
+        id: 25,
         img: '50.png',
         done: 90,
         text: {
@@ -393,7 +357,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 30,
+        id: 26,
         img: '51.png',
         done: 80,
         text: {
@@ -402,7 +366,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 31,
+        id: 27,
         img: '52.png',
         done: 90,
         text: {
@@ -411,7 +375,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 32,
+        id: 28,
         img: '53.png',
         done: 100,
         text: {
@@ -420,7 +384,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 33,
+        id: 29,
         img: '54.png',
         done: 100,
         text: {
@@ -429,7 +393,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 34,
+        id: 30,
         img: '55.png',
         done: 85,
         text: {
