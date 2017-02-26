@@ -242,14 +242,14 @@ angular.module('galleryApp', [])
       {
         id: 13,
         img: '13.png',
-        done: 95,
+        done: 50,
         text: {
           ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici. 3:6. Lucrul a ajuns la urechea împăratului din Ninive; el s-a sculat de pe scaunul lui de domnie, şi-a scos mantia de pe el, s-a acoperit cu un sac şi a şezut în cenuşă.",
           en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them. 3:6. For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes."
         }
       },
       {
-        id: 15,
+        id: 14,
         img: '40.png',
         done: 50,
         text: {
@@ -258,7 +258,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 16,
+        id: 15,
         img: '41.png',
         done: 60,
         text: {
@@ -267,7 +267,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 17,
+        id: 16,
         img: '42.png',
         done: 70,
         text: {
@@ -276,7 +276,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 18,
+        id: 17,
         img: '43.png',
         done: 100,
         text: {
@@ -285,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 19,
+        id: 18,
         img: '44.png',
         done: 40,
         text: {
@@ -294,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 20,
+        id: 19,
         img: '45.png',
         done: 40,
         text: {
@@ -303,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 21,
+        id: 20,
         img: '46.png',
         done: 40,
         text: {
@@ -312,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 21,
         img: '47.png',
         done: 90,
         text: {
@@ -321,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 22,
         img: '48.png',
         done: 70,
         text: {
@@ -330,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 23,
         img: '49.png',
         done: 50,
         text: {
@@ -339,7 +339,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 24,
         img: '50.png',
         done: 90,
         text: {
@@ -348,7 +348,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 25,
         img: '51.png',
         done: 80,
         text: {
@@ -357,7 +357,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 26,
         img: '52.png',
         done: 90,
         text: {
@@ -366,7 +366,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 28,
+        id: 27,
         img: '53.png',
         done: 100,
         text: {
@@ -375,7 +375,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 29,
+        id: 28,
         img: '54.png',
         done: 100,
         text: {
@@ -384,7 +384,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 30,
+        id: 29,
         img: '55.png',
         done: 85,
         text: {
