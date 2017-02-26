@@ -268,51 +268,15 @@ angular.module('galleryApp', [])
       },
       {
         id: 16,
-        img: '44.png',
-        done: 40,
+        img: '16.png',
+        done: 30,
         text: {
-          ro: "4:1. Lucrul acesta n-a plăcut deloc lui Iona, şi s-a mâniat.",
-          en: "4:1. But it displeased Jonah exceedingly, and he was very angry."
+          ro: "4:1. Lucrul acesta n-a plăcut deloc lui Iona, şi s-a mâniat. 4:2. S-a rugat Domnului şi a zis: \"Ah! Doamne, nu este aceasta tocmai ce ziceam eu când eram încă în ţara mea? Tocmai lucrul acesta voiam să-l înlătur fugind la Tars. Căci ştiam că eşti un Dumnezeu milos şi plin de îndurare, îndelung răbdător şi bogat în bunătate, şi că Te căieşti de rău! 4:3. Acum, Doamne, ia-mi viaţa, căci vreau mai bine să mor decât să trăiesc!\" 4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\" 4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
+          en: "4:1. But it displeased Jonah exceedingly, and he was very angry. 4:2. And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil. 4:3. Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live. 4:4. Then said the LORD, Doest thou well to be angry? 4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
         }
       },
       {
         id: 17,
-        img: '45.png',
-        done: 40,
-        text: {
-          ro: "4:2. S-a rugat Domnului şi a zis: \"Ah! Doamne, nu este aceasta tocmai ce ziceam eu când eram încă în ţara mea? Tocmai lucrul acesta voiam să-l înlătur fugind la Tars. Căci ştiam că eşti un Dumnezeu milos şi plin de îndurare, îndelung răbdător şi bogat în bunătate, şi că Te căieşti de rău!",
-          en: "4:2. And he prayed unto the LORD, and said, I pray thee, O LORD, was not this my saying, when I was yet in my country? Therefore I fled before unto Tarshish: for I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness, and repentest thee of the evil."
-        }
-      },
-      {
-        id: 18,
-        img: '46.png',
-        done: 40,
-        text: {
-          ro: "4:3. Acum, Doamne, ia-mi viaţa, căci vreau mai bine să mor decât să trăiesc!\"",
-          en: "4:3. Therefore now, O LORD, take, I beseech thee, my life from me; for it is better for me to die than to live."
-        }
-      },
-      {
-        id: 19,
-        img: '47.png',
-        done: 90,
-        text: {
-          ro: "4:4. Domnul a răspuns: \"Bine faci tu de te mânii?\"",
-          en: "4:4. Then said the LORD, Doest thou well to be angry?"
-        }
-      },
-      {
-        id: 20,
-        img: '48.png',
-        done: 70,
-        text: {
-          ro: "4:5. Şi Iona a ieşit din cetate şi s-a aşezat la răsărit de cetate. Acolo şi-a făcut un umbrar şi a stat sub el, până va vedea ce are să se întâmple cu cetatea.",
-          en: "4:5. So Jonah went out of the city, and sat on the east side of the city, and there made him a booth, and sat under it in the shadow, till he might see what would become of the city."
-        }
-      },
-      {
-        id: 21,
         img: '49.png',
         done: 50,
         text: {
@@ -321,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 18,
         img: '50.png',
         done: 90,
         text: {
@@ -330,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 19,
         img: '51.png',
         done: 80,
         text: {
@@ -339,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 20,
         img: '52.png',
         done: 90,
         text: {
@@ -348,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 21,
         img: '53.png',
         done: 100,
         text: {
@@ -357,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 22,
         img: '54.png',
         done: 100,
         text: {
@@ -366,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 23,
         img: '55.png',
         done: 85,
         text: {
