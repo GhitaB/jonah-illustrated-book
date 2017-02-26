@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 169;  // EDIT HERE
+    gallery.worked_hours = 170;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -250,33 +250,15 @@ angular.module('galleryApp', [])
       },
       {
         id: 14,
-        img: '40.png',
-        done: 50,
+        img: '14.png',
+        done: 30,
         text: {
-          ro: "3:7. Şi a trimis să se dea de ştire în Ninive, din porunca împăratului şi mai marilor lui, următoarele: \"Oamenii şi vitele, boii şi oile să nu guste nimic, să nu pască şi nici să nu bea apă deloc!",
-          en: "3:7. And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water:"
+          ro: "3:7. Şi a trimis să se dea de ştire în Ninive, din porunca împăratului şi mai marilor lui, următoarele: \"Oamenii şi vitele, boii şi oile să nu guste nimic, să nu pască şi nici să nu bea apă deloc! 3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile! 3:9. Cine ştie dacă nu Se va întoarce Dumnezeu şi Se va căi, şi dacă nu-Şi va opri mânia Lui aprinsă, ca să nu pierim!\"",
+          en: "3:7. And he caused it to be proclaimed and published through Nineveh by the decree of the king and his nobles, saying, Let neither man nor beast, herd nor flock, taste any thing: let them not feed, nor drink water: 3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands. 3:9. Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?"
         }
       },
       {
         id: 15,
-        img: '41.png',
-        done: 60,
-        text: {
-          ro: "3:8. Ci oamenii şi vitele să se acopere cu saci, să strige cu putere către Dumnezeu şi să se întoarcă de la calea lor cea rea şi de la faptele de asuprire de care le sunt pline mâinile!",
-          en: "3:8. But let man and beast be covered with sackcloth, and cry mightily unto God: yea, let them turn every one from his evil way, and from the violence that is in their hands."
-        }
-      },
-      {
-        id: 16,
-        img: '42.png',
-        done: 70,
-        text: {
-          ro: "3:9. Cine ştie dacă nu Se va întoarce Dumnezeu şi Se va căi, şi dacă nu-Şi va opri mânia Lui aprinsă, ca să nu pierim!\"",
-          en: "3:9. Who can tell if God will turn and repent, and turn away from his fierce anger, that we perish not?"
-        }
-      },
-      {
-        id: 17,
         img: '43.png',
         done: 100,
         text: {
@@ -285,7 +267,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 18,
+        id: 16,
         img: '44.png',
         done: 40,
         text: {
@@ -294,7 +276,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 19,
+        id: 17,
         img: '45.png',
         done: 40,
         text: {
@@ -303,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 20,
+        id: 18,
         img: '46.png',
         done: 40,
         text: {
@@ -312,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 21,
+        id: 19,
         img: '47.png',
         done: 90,
         text: {
@@ -321,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 20,
         img: '48.png',
         done: 70,
         text: {
@@ -330,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 21,
         img: '49.png',
         done: 50,
         text: {
@@ -339,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 22,
         img: '50.png',
         done: 90,
         text: {
@@ -348,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 23,
         img: '51.png',
         done: 80,
         text: {
@@ -357,7 +339,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 24,
         img: '52.png',
         done: 90,
         text: {
@@ -366,7 +348,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 25,
         img: '53.png',
         done: 100,
         text: {
@@ -375,7 +357,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 28,
+        id: 26,
         img: '54.png',
         done: 100,
         text: {
@@ -384,7 +366,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 29,
+        id: 27,
         img: '55.png',
         done: 85,
         text: {
