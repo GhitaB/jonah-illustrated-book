@@ -277,7 +277,7 @@ angular.module('galleryApp', [])
       },
       {
         id: 17,
-        img: '49.png',
+        img: '17.png',
         done: 50,
         text: {
           ro: "4:6. Domnul Dumnezeu a făcut să crească un curcubete care s-a ridicat peste Iona ca să facă umbră capului lui şi să-l facă să-i treacă mânia. Iona s-a bucurat foarte mult de curcubetele acesta.",
