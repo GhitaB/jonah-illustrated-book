@@ -259,8 +259,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 15,
-        img: '43.png',
-        done: 100,
+        img: '15.png',
+        done: 50,
         text: {
           ro: "3:10. Dumnezeu a văzut ce făceau ei şi că se întorceau de la calea lor cea rea. Atunci Dumnezeu S-a căit de răul pe care Se hotărâse să li-l facă şi nu l-a făcut.",
           en: "3:10. And God saw their works, that they turned from their evil way; and God repented of the evil, that he had said that he would do unto them; and he did it not."
