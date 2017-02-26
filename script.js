@@ -214,87 +214,15 @@ angular.module('galleryApp', [])
       },
       {
         id: 10,
-        img: '23.png',
+        img: '10.png',
         done: 50,
         text: {
-          ro: "2:1. Iona s-a rugat Domnului Dumnezeului său din pântecele peştelui",
-          en: "2:1. Then Jonah prayed unto the LORD his God out of the fish's belly,"
+          ro: "2:1. Iona s-a rugat Domnului Dumnezeului său din pântecele peştelui 2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul. 2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine. 2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\" 2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu. 2:6. M-am coborât până la temeliile munţilor, zăvoarele pământului mă încuiau pe vecie; dar Tu m-ai scos viu din groapă, Doamne Dumnezeul meu! 2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt. 2:8. Cei ce se lipesc de idoli deşerţi îndepărtează îndurarea de la ei. 2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
+          en: "2:1. Then Jonah prayed unto the LORD his God out of the fish's belly, 2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice. 2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me. 2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple. 2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head. 2:6. I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God. 2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple. 2:8. They that observe lying vanities forsake their own mercy. 2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
         }
       },
       {
         id: 11,
-        img: '24.png',
-        done: 80,
-        text: {
-          ro: "2:2. şi a zis: \"În strâmtorarea mea am chemat pe Domnul, şi m-a ascultat; din mijlocul Locuinţei morţilor am strigat, şi mi-ai auzit glasul.",
-          en: "2:2. And said, I cried by reason of mine affliction unto the LORD, and he heard me; out of the belly of hell cried I, and thou heardest my voice."
-        }
-      },
-      {
-        id: 12,
-        img: '25.png',
-        done: 90,
-        text: {
-          ro: "2:3. Şi totuşi mă aruncaseşi în adânc, în inima mării, şi râurile de apă mă înconjuraseră; toate valurile şi toate talazurile Tale au trecut peste mine.",
-          en: "2:3. For thou hadst cast me into the deep, in the midst of the seas; and the floods compassed me about: all thy billows and thy waves passed over me."
-        }
-      },
-      {
-        id: 13,
-        img: '26.png',
-        done: 80,
-        text: {
-          ro: "2:4. Ziceam: \"Sunt lepădat dinaintea ochilor Tăi! Dar iarăşi voi vedea Templul Tău cel sfânt.\"",
-          en: "2:4. Then I said, I am cast out of thy sight; yet I will look again toward thy holy temple."
-        }
-      },
-      {
-        id: 14,
-        img: '27.png',
-        done: 80,
-        text: {
-          ro: "2:5. Apele m-au acoperit până aproape să-mi ia viaţa, adâncul m-a învăluit, papura s-a împletit în jurul capului meu.",
-          en: "2:5. The waters compassed me about, even to the soul: the depth closed me round about, the weeds were wrapped about my head."
-        }
-      },
-      {
-        id: 15,
-        img: '28.png',
-        done: 50,
-        text: {
-          ro: "2:6. M-am coborât până la temeliile munţilor, zăvoarele pământului mă încuiau pe vecie; dar Tu m-ai scos viu din groapă, Doamne Dumnezeul meu!",
-          en: "2:6. I went down to the bottoms of the mountains; the earth with her bars was about me for ever: yet hast thou brought up my life from corruption, O LORD my God."
-        }
-      },
-      {
-        id: 16,
-        img: '29.png',
-        done: 50,
-        text: {
-          ro: "2:7. Când îmi tânjea sufletul în mine, mi-am adus aminte de Domnul, şi rugăciunea mea a ajuns până la Tine, în Templul Tău cel sfânt.",
-          en: "2:7. When my soul fainted within me I remembered the LORD: and my prayer came in unto thee, into thine holy temple."
-        }
-      },
-      {
-        id: 17,
-        img: '30.png',
-        done: 100,
-        text: {
-          ro: "2:8. Cei ce se lipesc de idoli deşerţi îndepărtează îndurarea de la ei.",
-          en: "2:8. They that observe lying vanities forsake their own mercy."
-        }
-      },
-      {
-        id: 18,
-        img: '31.png',
-        done: 45,
-        text: {
-          ro: "2:9. Eu însă Îţi voi aduce jertfe cu un strigăt de mulţumire, voi împlini juruinţele pe care le-am făcut. Mântuirea vine de la Domnul.\"",
-          en: "2:9. But I will sacrifice unto thee with the voice of thanksgiving; I will pay that that I have vowed. Salvation is of the LORD."
-        }
-      },
-      {
-        id: 19,
         img: '32.png',
         done: 50,
         text: {
@@ -303,7 +231,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 20,
+        id: 12,
         img: '33.png',
         done: 45,
         text: {
@@ -312,7 +240,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 21,
+        id: 13,
         img: '34.png',
         done: 45,
         text: {
@@ -321,7 +249,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 22,
+        id: 14,
         img: '35.png',
         done: 50,
         text: {
@@ -330,7 +258,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 23,
+        id: 15,
         img: '36.png',
         done: 50,
         text: {
@@ -339,7 +267,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 24,
+        id: 16,
         img: '37.png',
         done: 50,
         text: {
@@ -348,7 +276,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 25,
+        id: 17,
         img: '38.png',
         done: 95,
         text: {
@@ -357,7 +285,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 26,
+        id: 18,
         img: '39.png',
         done: 70,
         text: {
@@ -366,7 +294,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 27,
+        id: 19,
         img: '40.png',
         done: 50,
         text: {
@@ -375,7 +303,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 28,
+        id: 20,
         img: '41.png',
         done: 60,
         text: {
@@ -384,7 +312,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 29,
+        id: 21,
         img: '42.png',
         done: 70,
         text: {
@@ -393,7 +321,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 30,
+        id: 22,
         img: '43.png',
         done: 100,
         text: {
@@ -402,7 +330,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 31,
+        id: 23,
         img: '44.png',
         done: 40,
         text: {
@@ -411,7 +339,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 32,
+        id: 24,
         img: '45.png',
         done: 40,
         text: {
@@ -420,7 +348,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 33,
+        id: 25,
         img: '46.png',
         done: 40,
         text: {
@@ -429,7 +357,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 34,
+        id: 26,
         img: '47.png',
         done: 90,
         text: {
@@ -438,7 +366,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 35,
+        id: 27,
         img: '48.png',
         done: 70,
         text: {
@@ -447,7 +375,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 36,
+        id: 28,
         img: '49.png',
         done: 50,
         text: {
@@ -456,7 +384,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 37,
+        id: 29,
         img: '50.png',
         done: 90,
         text: {
@@ -465,7 +393,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 38,
+        id: 30,
         img: '51.png',
         done: 80,
         text: {
@@ -474,7 +402,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 39,
+        id: 31,
         img: '52.png',
         done: 90,
         text: {
@@ -483,7 +411,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 40,
+        id: 32,
         img: '53.png',
         done: 100,
         text: {
@@ -492,7 +420,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 41,
+        id: 33,
         img: '54.png',
         done: 100,
         text: {
@@ -501,7 +429,7 @@ angular.module('galleryApp', [])
         }
       },
       {
-        id: 42,
+        id: 34,
         img: '55.png',
         done: 85,
         text: {
