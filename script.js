@@ -241,20 +241,11 @@ angular.module('galleryApp', [])
       },
       {
         id: 13,
-        img: '38.png',
+        img: '13.png',
         done: 95,
         text: {
-          ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici.",
-          en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them."
-        }
-      },
-      {
-        id: 14,
-        img: '39.png',
-        done: 70,
-        text: {
-          ro: "3:6. Lucrul a ajuns la urechea împăratului din Ninive; el s-a sculat de pe scaunul lui de domnie, şi-a scos mantia de pe el, s-a acoperit cu un sac şi a şezut în cenuşă.",
-          en: "3:6. For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes."
+          ro: "3:5. Oamenii din Ninive au crezut în Dumnezeu, au vestit un post şi s-au îmbrăcat cu saci, de la cei mai mari până la cei mai mici. 3:6. Lucrul a ajuns la urechea împăratului din Ninive; el s-a sculat de pe scaunul lui de domnie, şi-a scos mantia de pe el, s-a acoperit cu un sac şi a şezut în cenuşă.",
+          en: "3:5. So the people of Nineveh believed God, and proclaimed a fast, and put on sackcloth, from the greatest of them even to the least of them. 3:6. For word came unto the king of Nineveh, and he arose from his throne, and he laid his robe from him, and covered him with sackcloth, and sat in ashes."
         }
       },
       {
