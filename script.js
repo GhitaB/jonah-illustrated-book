@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 171;  // EDIT HERE
+    gallery.worked_hours = 172;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -313,8 +313,8 @@ angular.module('galleryApp', [])
       },
       {
         id: 21,
-        img: '55.png',
-        done: 85,
+        img: '21.png',
+        done: 30,
         text: {
           ro: "4:11. Şi Mie să nu-Mi fie milă de Ninive, cetatea cea mare, în care se află mai mult de o sută douăzeci de mii de oameni care nu ştiu să deosebească dreapta de stânga lor, afară de o mulţime de vite!\"",
           en: "4:11. And should not I spare Nineveh, that great city, wherein are more than sixscore thousand persons that cannot discern between their right hand and their left hand; and also much cattle?"
