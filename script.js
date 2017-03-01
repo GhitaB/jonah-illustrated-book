@@ -4,7 +4,7 @@ angular.module('galleryApp', [])
     gallery.language = "ro";
     gallery.work_start_date = new Date(2016,05,20);
 
-    gallery.worked_hours = 172.5;  // EDIT HERE
+    gallery.worked_hours = 173;  // EDIT HERE
 
     gallery.get_global_progress = function() {
       var index;
@@ -143,7 +143,7 @@ angular.module('galleryApp', [])
       {
         id: 2,
         img: '02.png',
-        done: 90,
+        done: 100,
         text: {
           ro: "1:3B. S-a coborât la Iafo şi a găsit acolo o corabie care mergea la Tars.",
           en: "1:3B. and went down to Joppa; and he found a ship going to Tarshish:"
