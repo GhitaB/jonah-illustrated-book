@@ -38,9 +38,6 @@ ul.languages img.flag {
   cursor: pointer;
 }
 
-ul.languages {
-  margin-top: 20px;
-}
 ul.languages li {
   display: inline-block;
   margin-right: 10px;
