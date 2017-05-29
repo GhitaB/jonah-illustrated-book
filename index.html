@@ -46,84 +46,85 @@
 <body ng-controller="galleryController as gallery">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
         <h1 class="page-title">{{gallery.title[gallery.language]}}</h1>
         <p class="page-description">
           {{gallery.description[gallery.language]}}
         </p>
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+        <!-- Choose language -->
+        <ul class="languages pull-right">
+          <li ng-repeat="language in gallery.languages">
+            <img class="flag" ng-src="Images/{{language.short}}.png"
+                 ng-click="gallery.change_language(language.short)">
+            <b ng-if="language.short == gallery.language">
+              {{language.text}}
+            </b>
+            <span ng-if="language.short != gallery.language">
+              {{language.text}}
+            </span>
+          </li>
+        </ul>
+      </div>
+    </div>
 
-        <div id="gallery">
-
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-              <!-- Choose language -->
-              <ul class="languages">
-                <li ng-repeat="language in gallery.languages">
-                  <img class="flag" ng-src="Images/{{language.short}}.png"
-                       ng-click="gallery.change_language(language.short)">
-                  <b ng-if="language.short == gallery.language">
-                    {{language.text}}
-                  </b>
-                  <span ng-if="language.short != gallery.language">
-                    {{language.text}}
-                  </span>
-                </li>
-              </ul>
-
-              <!-- Image -->
-              <div class="gallery-item" ng-repeat="item in gallery.items">
-                <div class="row">
-                  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-                    <h3>{{gallery.episode[gallery.language]}} {{item.id}}</h3>
+    <div id="gallery">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <!-- Image -->
+          <div class="gallery-item" ng-repeat="item in gallery.items">
+            <div class="row">
+              <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                <h3>{{gallery.episode[gallery.language]}} {{item.id}}</h3>
+              </div>
+              <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                <div class="progress">
+                  <div class="progress-bar progress-bar-{{gallery.get_progress(item.done)}}"
+                       role="progressbar"
+                       aria-valuenow="{{item.done}}" aria-valuemin="0"
+                       aria-valuemax="100"
+                       style="width:{{item.done}}%">
+                    {{item.done}}% {{gallery.complete[gallery.language]}}
                   </div>
-                  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-                    <div class="progress">
-                      <div class="progress-bar progress-bar-{{gallery.get_progress(item.done)}}"
-                           role="progressbar"
-                           aria-valuenow="{{item.done}}" aria-valuemin="0"
-                           aria-valuemax="100"
-                           style="width:{{item.done}}%">
-                        {{item.done}}% {{gallery.complete[gallery.language]}}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <img ng-src="Latest/{{item.img}}"
-                     class="img-responsive img-rounded" />
-
-                <div class="caption">
-                  <p>{{item.text[gallery.language]}}</p>
                 </div>
               </div>
             </div>
+
+            <img ng-src="Latest/{{item.img}}"
+                 class="img-responsive img-rounded" />
+
+            <div class="caption">
+              <p>{{item.text[gallery.language]}}</p>
+            </div>
           </div>
-
-          <!-- Progress -->
-          <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
-            {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
-          </h2>
-          <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
-          <p>{{gallery.estimate_finish_date_text[gallery.language]}} {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}.</p>
-          <p>{{gallery.hope_finish_date_text[gallery.language]}}</p>
-
-          <!-- You can help -->
-          <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
-            {{gallery.you_can_help[gallery.language]}}
-          </h2>
-          <p>ghita_bizau@yahoo.com</p>
-
-          <!-- Thanks -->
-          <h3>{{gallery.credits.title[gallery.language]}}</h3>
-          <p>{{gallery.credits.text[gallery.language]}}</p>
-          <p>
-            Ideas from: Adriana Precup, Bocan Diana A. Fily, Bănică Amalia,
-            Emma Dance, Naomi Iulia Dance, Sara Dance, Julia Radzewicz.
-          </p>
-
         </div>
       </div>
+
+      <!-- Progress -->
+      <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+        {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
+      </h2>
+      <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
+      <p>{{gallery.estimate_finish_date_text[gallery.language]}} {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}.</p>
+      <p>{{gallery.hope_finish_date_text[gallery.language]}}</p>
+
+      <!-- You can help -->
+      <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+        {{gallery.you_can_help[gallery.language]}}
+      </h2>
+      <p>ghita_bizau@yahoo.com</p>
+
+      <!-- Thanks -->
+      <h3>{{gallery.credits.title[gallery.language]}}</h3>
+      <p>{{gallery.credits.text[gallery.language]}}</p>
+      <p>
+        Ideas from: Adriana Precup, Bocan Diana A. Fily, Bănică Amalia,
+        Emma Dance, Naomi Iulia Dance, Sara Dance, Julia Radzewicz.
+      </p>
+
     </div>
   </div>
+</div>
 </body>
 </html>
