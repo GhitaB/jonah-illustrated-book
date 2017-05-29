@@ -1,104 +1,127 @@
 <!DOCTYPE html>
 <html lang="ro" ng-app="galleryApp">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Jonah - illustrated book for kids</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head
+       content must come *after* these tags -->
+  <title>Jonah - illustrated book for kids</title>
 
-    <!-- Bootstrap -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous">
+  </script>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js">
+  </script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="styles.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and
+       media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js">
+    </script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js">
+    </script>
+  <![endif]-->
+</head>
+<body ng-controller="galleryController as gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="page-title">{{gallery.title[gallery.language]}}</h1>
+        <p class="page-description">
+          {{gallery.description[gallery.language]}}
+        </p>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body ng-controller="galleryController as gallery">
-    <div class="container-fluid text-center">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <h1 class="title">{{gallery.title[gallery.language]}}</h1>
-          <h2 class="title">{{gallery.description[gallery.language]}}</h2>
+        <div id="gallery">
 
-          <div id="gallery" class="container">
+          <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <!-- Choose language -->
+              <ul class="languages">
+                <li ng-repeat="language in gallery.languages">
+                  <img class="flag" ng-src="Images/{{language.short}}.png"
+                       ng-click="gallery.change_language(language.short)">
+                  <b ng-if="language.short == gallery.language">
+                    {{language.text}}
+                  </b>
+                  <span ng-if="language.short != gallery.language">
+                    {{language.text}}
+                  </span>
+                </li>
+              </ul>
 
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <!-- Choose language -->
-                <ul class="languages">
-                  <li ng-repeat="language in gallery.languages">
-                    <img class="flag" ng-src="Images/{{language.short}}.png"
-                         ng-click="gallery.change_language(language.short)">
-                    <b ng-if="language.short == gallery.language">{{language.text}}</b>
-                    <span ng-if="language.short != gallery.language">{{language.text}}</span>
-                  </li>
-                </ul>
-
-                <!-- Episode -->
-                <div class="gallery-item" ng-repeat="item in gallery.items">
-                  <div class="row">
-                    <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
-                      <h3>{{gallery.episode[gallery.language]}} {{item.id}}</h3>
-                    </div>
-                    <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-                      <div class="progress">
-                        <div class="progress-bar progress-bar-{{gallery.get_progress(item.done)}}" role="progressbar"
-                             aria-valuenow="{{item.done}}" aria-valuemin="0" aria-valuemax="100"
-                             style="width:{{item.done}}%">
-                          {{item.done}}% {{gallery.complete[gallery.language]}}
-                        </div>
+              <!-- Image -->
+              <div class="gallery-item" ng-repeat="item in gallery.items">
+                <div class="row">
+                  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12">
+                    <h3>{{gallery.episode[gallery.language]}} {{item.id}}</h3>
+                  </div>
+                  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-{{gallery.get_progress(item.done)}}"
+                           role="progressbar"
+                           aria-valuenow="{{item.done}}" aria-valuemin="0"
+                           aria-valuemax="100"
+                           style="width:{{item.done}}%">
+                        {{item.done}}% {{gallery.complete[gallery.language]}}
                       </div>
                     </div>
                   </div>
+                </div>
 
-                  <img ng-src="Latest/{{item.img}}" class="img-responsive img-rounded">
+                <img ng-src="Latest/{{item.img}}"
+                     class="img-responsive img-rounded" />
 
-                  <div class="caption">
-                    <p>{{item.text[gallery.language]}}</p>
-                  </div>
+                <div class="caption">
+                  <p>{{item.text[gallery.language]}}</p>
                 </div>
               </div>
             </div>
-
-            <!-- Progress -->
-            <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
-              {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
-            </h2>
-            <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
-            <p>{{gallery.estimate_finish_date_text[gallery.language]}} {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}.</p>
-            <p>{{gallery.hope_finish_date_text[gallery.language]}}</p>
-            <!-- You can help -->
-            <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
-              {{gallery.you_can_help[gallery.language]}}
-            </h2>
-            <p class="text-center">ghita_bizau@yahoo.com</p>
-
-            <!-- Thanks -->
-            <h3 class="text-center">{{gallery.credits.title[gallery.language]}}</h3>
-            <p class="text-center">{{gallery.credits.text[gallery.language]}}</p>
-	    <p class="text-center">Ideas from: Adriana Precup, Bocan Diana A. Fily, Bănică Amalia, Emma Dance, Naomi Iulia Dance, Sara Dance, Julia Radzewicz.</p>
-
           </div>
+
+          <!-- Progress -->
+          <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+            {{gallery.get_global_progress()}}% {{gallery.complete[gallery.language]}}.
+          </h2>
+          <p>{{gallery.estimate_remaining_text[gallery.language]}}</p>
+          <p>{{gallery.estimate_finish_date_text[gallery.language]}} {{gallery.estimate_finish_date() | date:'dd.MM.yyyy'}}.</p>
+          <p>{{gallery.hope_finish_date_text[gallery.language]}}</p>
+
+          <!-- You can help -->
+          <h2 class="title bg-{{gallery.get_progress(gallery.get_global_progress())}}">
+            {{gallery.you_can_help[gallery.language]}}
+          </h2>
+          <p>ghita_bizau@yahoo.com</p>
+
+          <!-- Thanks -->
+          <h3>{{gallery.credits.title[gallery.language]}}</h3>
+          <p>{{gallery.credits.text[gallery.language]}}</p>
+          <p>
+            Ideas from: Adriana Precup, Bocan Diana A. Fily, Bănică Amalia,
+            Emma Dance, Naomi Iulia Dance, Sara Dance, Julia Radzewicz.
+          </p>
+
         </div>
       </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>
