@@ -1,37 +1,15 @@
-/* Colors:
-#010400 - BLACK
-#30332E - JET
-#FFFBFC - SHOW
-#62BBC1 - MOONSTONE BLUE
-#EC058E - MAGENTA (PROCESS)
-*/
-
 body {
-  background: #FFFBFC;
-  color: #010400;
   font-family: sans-serif;
-}
-
-h1.title {
-  font-size: 12vw;
-  font-family: serif;
-  color: #62BBC1;
-}
-
-h2.title {
-  font-size: 3vw;
-  color: #EC058E;
 }
 
 h3 {
   font-size: 30px;
-  color: #30332E;
   text-align: left;
 }
 
 div#gallery div.gallery-item {
   margin-top: 50px;
-  border-top: 5px dotted #62BBC1;
+  border-top: 1px solid #EEEEEE;
 }
 
 div#gallery div.gallery-item img {
@@ -43,9 +21,9 @@ div#gallery div.gallery-item div.caption {
   margin-top: 10px;
   margin-bottom: 100px;
   padding: 20px;
-  border-radius: 20px;
-  background: #30332E;
-  color: #FFFBFC;
+  border-radius: 0;
+  background: #EEEEEE;
+  color: #666666;
   font-size: 16px;
   text-align: left;
 }
